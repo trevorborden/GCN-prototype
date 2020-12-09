@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="INVITED/icon-font.INVITED"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <title>Free Procore </title>
+</head>
+
+<body>
+
+
+
+    <!-- Container holding the top bars so that they can be positioned together and fixed to the top -->
+
+    <!-- Site Header-->
+
+
+<div class="site-header">
+  <div class="site-header_logo">
+    <img class="site-header_logo_img center--horizontal" src="img/procorelogo.svg" alt="">
+  </div>
+  <div class="site-header_company-picker">
+ <div class="site-header_company-picker_logo">
+     </div>
+  </div>
+
+  <ul class="site-header_pages">
+    <li>
+      <a class="" href="construction-network.html">
+      Construction Network
+      </a>
+    </li>
+
+    <li>
+      <a class="" href="company-profile.html">
+      Company Profile
+      </a>
+    </li>
+    <li>
+      <a  href="index.html">
+        Planroom
+      </a>
+    </li>
+
+    <li>
+      <a class="site-header_pages_selected" href="projects.html">
+        Projects
+      </a>
+    </li>
+
+
+  </ul>
+
+</div>
+
+<!-- Tool Header -->
+
+<div class="tool-header">
+  <div class="tool-header_name-and-instruction">
+    <h1 class="tool-header_name">
+      <span>Projects
+    </span>
+    </h1>
+    <h2>
+     <span>
+       Manage your company's projects  </span>
+    </h2>
+
+  </div>
+
+
+  <div class="tool-header_actions">
+    <!-- <button class="secondary loading-bois" ><spinner><svg class="spinner" viewBox="0 0 48 48">
+      <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+      </svg></spinner><label>Secondary</label>
+    </button> -->
+    <button class=""><spinner><svg class="spinner" viewBox="0 0 48 48">
+      <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+    </svg></spinner><label>Create a new project</label>
+    </button>
+  </div>
+</div>
+
+
+
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/axe-core/2.4.2/axe.min.js'></script>
+<script id="rendered-js">
+$( ".loading-bois button" ).click(function() {
+  $(this).toggleClass('loading');
+});
+
+
+$(document).ready(function(){
+  var randomIcons =
+    [
+      "ci-tool-admin","ci-tool-bidding","ci-tool-budget","ci-tool-change-events","ci-tool-change-orders","ci-tool-commitments","ci-tool-crews","ci-tool-custom","ci-tool-daily-log","ci-tool-direct-costs","ci-tool-directory","ci-tool-documents","ci-tool-drawings","ci-tool-emails","ci-tool-forms","ci-tool-incidents","ci-tool-inspections","ci-tool-meetings","ci-tool-observations","ci-tool-pay","ci-tool-photos","ci-tool-prime-contract","ci-tool-project-home","ci-tool-punch-list","ci-tool-reports","ci-tool-rfis","ci-tool-rfqs","ci-tool-safety","ci-tool-schedule","ci-tool-site-instructions","ci-tool-specifications","ci-tool-submittals","ci-tool-superuser","ci-tool-tasks","ci-tool-timesheet","ci-tool-transmittals","ci-announcements","ci-app-marketplace","ci-assembly-integration","ci-attachment","ci-calculator","ci-calendar","ci-check","ci-check-circle","ci-chevron-circle-left","ci-chevron-circle-left-o","ci-chevron-circle-right","ci-chevron-circle-right-o","ci-chevron-right","ci-close","ci-cog","ci-copy","ci-create","ci-delete","ci-download","ci-draw","ci-edit","ci-ellipsis-v","ci-email","ci-error-o","ci-grab","ci-info-circle-o","ci-key","ci-launch","ci-lock","ci-pdf","ci-private","ci-reopen","ci-reply-all","ci-search","ci-angle-double-left","ci-star","ci-success-circle-o","ci-question-circle","ci-question-circle-o","ci-trash","ci-upload","ci-warning-triangle-o","ci-x-circle","ci-import","ci-DistributionGroup","ci-arrow-up","ci-arrow-down","ci-arrow-left","ci-arrow-right","ci-angle-double-right","ci-duplicate","ci-view-list","ci-view-grid","ci-view-card","ci-view-location","ci-view-kanban","ci-warning-triangle","ci-offline","ci-chevron-up","ci-chevron-down","ci-chevron-left","ci-sort-ascend","ci-sort-descend","ci-x"
+    ];
+
+  /*
+  randomIcons = [
+    "mdi-account","mdi-account-clock","mdi-android-studio"
+  ];*/
+
+
+
+
+});
+
+
+
+$(document).keypress(function(e) {
+    var key = e.which;
+    if (key == 49) {
+        // if the user pressed 't':
+        $("body").toggleClass("graybg");
+
+    }
+
+   if (key == 50) {
+        // if the user pressed 't':
+        $("body").toggleClass("dark");
+
+    }
+
+  if (key == 51) {
+        // if the user pressed 't':
+        $("body").toggleClass("no-outlines");
+
+    }
+
+
+
+
+
+
+
+});
+    </script>
+
+</body>
+
+
+
+</html>

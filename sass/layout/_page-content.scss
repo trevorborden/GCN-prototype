@@ -1,0 +1,296 @@
+.page-content {
+  width: 100vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+  opacity: 0%;
+  animation-delay: 0ms;
+  animation: FadeIn 500ms;
+  animation-fill-mode: forwards;
+
+  h1 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+
+
+.search-and-filter {
+  width: 402px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+
+  &_search {
+    width: 300px;
+    height: 32px;
+  }
+}
+
+
+
+/* HIDE radio buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+
+/* FILTERS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.filters {
+  text-align: center;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  position: relative;
+
+
+
+li:not(:last-child) {
+    margin-right: 12px;
+  }
+
+&_item {
+    line-height: normal;
+    cursor: pointer;
+    transition: 300ms;
+    box-shadow: 0px 1px 2px #D4D7E4;
+    border-radius: 8px;
+    text-align: left;
+    padding: 16px;
+    background: #fff;
+
+  &:hover {
+    background: #fff;
+    box-shadow: 0px 10px 25px #D4D7E4;
+  }
+  &_title {
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+
+  }
+
+  &_project-amount {
+    font-weight: bold;
+    font-size: 27px;
+    width: 100%;
+
+  }
+  &_project-amount-title {
+    font-weight: normal;
+    font-size: 14px;
+
+  }
+
+  }
+}
+
+.filters * {
+  display: inline-block;
+}
+
+
+
+
+
+/* FILTERED ELEMENTS (BID-PACKAGES)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bid-packages {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#instructions {
+  grid-column: 1/-1;
+  background: none;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 44px;
+  color: #232729;
+  box-shadow: none;
+  opacity: 0;
+  animation-delay: 100ms;
+  animation: FadeIn 1000ms;
+  animation-fill-mode: forwards;
+}
+
+
+.bid-package {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 25px #D4D7E4;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  justify-content: space-between;
+  transition: 300ms;
+  border: 1px solid #fff;
+  opacity: 0%;
+  animation: tileAppear 500ms cubic-bezier(0, 0, 0, 1.47);
+  animation-fill-mode: forwards;
+
+&:hover {
+  box-shadow: 0px 2px 5px #D4D7E4;
+  border: 1px solid #2066DF;
+  cursor: pointer;
+
+}
+
+& div:not(:last-child) {
+  margin-right: 24px;
+}
+& div:last-child {
+  margin-right: 12px;
+}
+& div {
+ max-width: 240px;
+}
+& div .second-line {
+  font-weight: normal;
+}
+
+&_company-logo {
+  width: 60px;
+  height: 60px;
+  margin: 12px 24px 12px 16px;
+  background-image: url(../img/turner.png);
+  background-size: contain;
+  background-position: center;
+  border-radius: 4px;
+  border: 1px solid #F4F5F6;
+}
+
+&_name {
+min-width: 164px;
+}
+
+&_action {
+  button {
+    margin: 0 4px 0 0;
+  }
+}
+}
+
+.bid-package-dark {
+  background-color: red;
+}
+
+
+/* FILTERING RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+[value="Invited"]:checked ~ .filters [for="Invited"],
+[value="Pursuing"]:checked ~ .filters [for="Pursuing"],
+[value="Submitted"]:checked ~ .filters [for="Submitted"],
+[value="Won"]:checked ~ .filters [for="Won"],
+[value="Archived"]:checked ~ .filters [for="Archived"] {
+  background:  #2066DF;
+box-shadow: 0px 10px 25px #D4D7E4;
+border-radius: 8px;;
+  color: #fff;
+}
+
+[value="All"]:checked ~ .bid-packages [data-category] {
+  display: block;
+}
+
+[value="Invited"]:checked ~ .bid-packages .bid-package:not([data-category~="Invited"]),
+[value="Pursuing"]:checked ~ .bid-packages .bid-package:not([data-category~="Pursuing"]),
+[value="Submitted"]:checked ~ .bid-packages .bid-package:not([data-category~="Submitted"]),
+[value="Won"]:checked ~ .bid-packages .bid-package:not([data-category~="Won"]),
+[value="Archived"]:checked ~ .bid-packages .bid-package:not([data-category~="Archived"]),
+[value="fullPage.js"]:checked ~ .bid-packages .bid-package:not([data-category~="fullPage.js"]) {
+  display: none;
+}
+
+
+// cheap hack to simuate staggered loading of the patient tiles, probably better to use a jquery library
+  .bid-package:nth-child(2) {
+  animation-delay: 50ms;
+  }
+
+  .bid-package:nth-child(3) {
+    animation-delay: 100ms;
+  }
+
+  .bid-package:nth-child(4) {
+    animation-delay: 150ms;
+  }
+
+  .bid-package:nth-child(5) {
+    animation-delay: 200ms;
+  }
+
+  .bid-package:nth-child(6) {
+    animation-delay: 250ms;
+  }
+
+  .bid-package:nth-child(7) {
+    animation-delay: 300ms;
+  }
+
+  .bid-package:nth-child(8) {
+    animation-delay: 350ms;
+  }
+
+  .bid-package:nth-child(9) {
+    animation-delay: 400ms;
+  }
+
+  .bid-package:nth-child(10) {
+    animation-delay: 450ms;
+  }
+
+  .bid-package:nth-child(11) {
+    animation-delay: 500ms;
+  }
+
+  .bid-package:nth-child(12) {
+    animation-delay: 550ms;
+  }
+
+  .bid-package:nth-child(13) {
+    animation-delay: 600ms;
+  }
+
+  .bid-package:nth-child(14) {
+    animation-delay: 650ms;
+  }
+
+  .bid-package:nth-child(15) {
+    animation-delay: 700ms;
+  }
+
+  .bid-package:nth-child(16) {
+    animation-delay: 750ms;
+  }
+
+  .bid-package:nth-child(17) {
+    animation-delay: 800ms;
+  }
+
+  .bid-package:nth-child(18) {
+    animation-delay: 850ms;
+  }
+
+  .bid-package:nth-child(19) {
+    animation-delay: 900ms;
+  }
+
+  .bid-package:nth-child(20) {
+    animation-delay: 950ms;
+  }

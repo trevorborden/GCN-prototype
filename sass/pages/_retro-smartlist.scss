@@ -1,0 +1,287 @@
+.iodine-body {
+  background: #eeeeee;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px 30px;
+  margin-top: 97px;
+  overflow: hidden;
+  position: relative;
+}
+
+.retro-search {
+  width: 383px;
+  height: 48px;
+  background-color: #ffffff;
+  margin: 0 auto 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-family: Helvetica;
+  font-size: 14px;
+
+  .material-icons {
+    margin-right: 5px;
+    border-radius: 50%;
+    padding: 6px;
+    border: 1px solid transparent;
+    transition: 300ms;
+    color: #8a8e94;
+
+    &:hover {
+      background-color: #eeeeee;
+      cursor: pointer;
+    }
+
+    &:active {
+      border-color: #d2d2d2;
+      background: #dddddd;
+    }
+  }
+  input {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 14px;
+
+  }
+}
+
+
+.page-controllers {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+  .material-icons {
+    margin-right: 5px;
+    border-radius: 50%;
+    padding: 6px;
+    border: 1px solid transparent;
+    transition: 300ms;
+    color: #8a8e94;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, .07);
+      cursor: pointer;
+    }
+
+    &:active {
+      border-color: rgba(0, 0, 0, .15);
+      background: rgba(0, 0, 0, .12);
+    }
+  }
+}
+
+
+// These 'tabs' refer to the two sets of columns, the 'Prioty' and 'All others'
+.retro-smartlist-tabs {
+  display: flex;
+  width: 100vw;
+  margin-left: -30px;
+}
+
+.retro-smartlist-container {
+  display: flex;
+  justify-content: center;
+  min-width: 100vw;
+  transition: 400ms cubic-bezier(0, 0, 0.24, 0.9);
+}
+
+.retro-smartlist-container--priority--hidden {
+  margin-left: -100vw;
+}
+
+// Smartlist columns and their column specific rules
+.retro-smartlist {
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    color: #353d48;
+  }
+
+  &__date-range {
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: right;
+    color: #474a4f;
+    font-weight: normal;
+  }
+  // column specific styles
+  &--to-do {
+
+    .retro-smartlist__item {
+      border-color: #007d9b;
+    }
+  }
+
+  &--pending {
+
+    .retro-smartlist__item {
+      border-color: #eecc52;
+    }
+
+    .retro-smartlist__item__date-added {
+      color: red;
+    }
+  }
+
+  &--no-further-action {
+
+    .retro-smartlist__item {
+      border-color: #19a652;
+    }
+
+    .retro-smartlist__item__date-added {
+      color: #19a652;
+    }
+
+    .retro-smartlist__item__content {
+      opacity: 0.54;
+    }
+  }
+
+  &--low-priority {
+
+    .retro-smartlist__item {
+      border-color: transparent;
+    }
+  }
+
+//Patient Tiles
+  &__item {
+    max-width: 400px;
+    min-width: 350px;
+    width: 33.33%;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    border-left: 4px solid;
+    box-shadow: 0 1px 2px 0 rgba(36, 50, 66, 0.15);
+    transition: 300ms;
+    padding: 15px;
+    opacity: 0;
+    animation: tileAppear 500ms cubic-bezier(0, 0, 0, 1.47);
+    animation-fill-mode: forwards;
+
+    &:hover {
+      box-shadow: 0 20px 30px 0 rgba(35, 50, 66, 0.14);
+      z-index: 1;
+      position: relative;
+      cursor: pointer;
+    }
+
+    &__patient-name {
+      font-size: 16px;
+      float: left;
+      font-weight: bold;
+    }
+
+    &__priority-number {
+      float: right;
+    }
+
+    &__owner {
+      float: left;
+      display: flex;
+      clear: both;
+      font-weight: normal;
+      align-items: center;
+      line-height: 14px;
+      border: 1px solid rgba(0, 0, 0, .12);
+      border-radius: 2px;
+      padding: 2px;
+      position: relative;
+      transition: 200ms;
+      &__name {
+        border: none;
+        background: white;
+        width: 150px;
+        font-size: 14px;
+
+        &:focus {
+          outline: white;
+        }
+      }
+    &:hover {
+      border: 1px solid #007d9b
+    }
+
+    }
+
+    &__discharged-date {
+      font-size: 14px;
+      font-weight: bold;
+      color: #79848E;
+      float: right;
+    }
+
+    &__date-added {
+      font-size: 16px;
+      font-weight: bold;
+      color: #79848E;
+      float: right;
+    }
+  }
+
+  // cheap hack to simuate staggered loading of the patient tiles, probably better to use a jquery library
+  .retro-smartlist__item:nth-child(2) {
+    animation-delay: 50ms;
+  }
+
+  .retro-smartlist__item:nth-child(3) {
+    animation-delay: 100ms;
+  }
+
+  .retro-smartlist__item:nth-child(4) {
+    animation-delay: 150ms;
+  }
+
+  .retro-smartlist__item:nth-child(5) {
+    animation-delay: 200ms;
+  }
+
+  .retro-smartlist__item:nth-child(6) {
+    animation-delay: 250ms;
+  }
+
+  .retro-smartlist__item:nth-child(7) {
+    animation-delay: 300ms;
+  }
+
+  .retro-smartlist__item:nth-child(8) {
+    animation-delay: 350ms;
+  }
+
+  .retro-smartlist__item:nth-child(9) {
+    animation-delay: 400ms;
+  }
+
+  .retro-smartlist__item:nth-child(10) {
+    animation-delay: 450ms;
+  }
+
+  .retro-smartlist__item:nth-child(11) {
+    animation-delay: 500ms;
+  }
+
+  .retro-smartlist__item:nth-child(12) {
+    animation-delay: 550ms;
+  }
+
+  .retro-smartlist__item:nth-child(13) {
+    animation-delay: 600ms;
+  }
+}

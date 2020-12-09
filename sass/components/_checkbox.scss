@@ -1,0 +1,44 @@
+input {
+   display: none;
+}
+
+.iodine-checkbox + label {
+    position: relative;
+    display: inline-flex;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+
+    &:hover {
+      color: #007d9b;
+    }
+}
+.iodine-checkbox + label::before {
+    content: "";
+    display: inline-block;
+    border: 2px solid #007d9b;
+    border-radius: 2px;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+.iodine-checkbox:checked + label::after {
+    content: "\E5CA";
+    font-family: "Material Icons";
+    color: #fff;
+    line-height: 1;
+    left: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+    position: absolute;
+    cursor: pointer;
+    top: 40%;
+    transform: translateY(-50%);
+}
+.iodine-checkbox:checked + label::before {
+    border: 2px solid #007d9b;
+    background: #007d9b;
+  }

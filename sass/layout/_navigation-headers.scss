@@ -1,0 +1,125 @@
+.site-header {
+  background: #000;
+  width: 100vw;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+  z-index: 100;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  z-index: 200;
+
+  &_logo {
+    height:48px;
+    width: 48px;
+    border-right: 1px solid #5E696E;
+    position: relative;
+
+
+    &_img {
+      transform: translateY(-50%);
+      top: 50%;
+      position: absolute;
+    }
+  }
+  &_company-picker{
+   height: 48px;
+   width: 152px;
+   background-color: #fff;
+   border-radius: 4px;
+   margin-right: 16px;
+   padding: 4px;
+   margin-left: 16px;
+
+   &_logo {
+    background-image: url(../img/jim-peterson.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+   }
+  }
+
+
+&_pages {
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+font-weight: bold;
+letter-spacing: 0.25px;
+  li {
+    display: inline-block;
+transition: 200ms;
+padding-bottom: 8px;
+padding: 14px 24px;
+border: 1px solid black;
+
+
+&:hover {
+    background: hsl(200, 8%, 15%);
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+  border:  1px solid #2f3437
+}
+
+a {
+  color: #B3B3B3;
+}
+  }
+
+  &_selected {
+  border-bottom:2px solid #FF5200;
+  border-radius: 1px;
+  padding-bottom: 12px;
+  color: #fff;
+  }
+  &_selected a{
+  color: #fff;
+  }
+}
+
+}
+
+
+.tool-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 24px;
+  margin-top:  64px;
+  opacity: 0%;
+  animation-delay: 100ms;
+  animation: FadeIn 1000ms;
+  animation-fill-mode: forwards;
+  margin-bottom: 24px;
+
+  &_name-and-instruction{
+
+  a {
+    color: #000;
+    font-weight: 600;
+  }
+}
+
+&_name {
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 44px;
+margin-top: 38px;
+}
+
+&_actions {
+  margin-top: 38px;
+
+}
+
+
+}

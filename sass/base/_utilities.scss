@@ -1,0 +1,18 @@
+.half {
+  width: 50%;
+}
+
+.full {
+  width: 100%;
+}
+
+
+// Core overrides
+
+.core-checkbox__input:checked+.core-checkbox__label:before {
+    border-radius: 2px;
+  }
+
+.core-checkbox__label:before {
+      border-radius: 2px;
+    }
