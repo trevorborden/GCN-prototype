@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="INVITED/icon-font.INVITED"> -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="INVITED/icon-font.INVITED"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
 
 
-  <title>Free Procore </title>
+    <title>Free Procore </title>
 </head>
 
 <body>
@@ -21,47 +21,86 @@
 
     <!-- Site Header-->
 
-<div class="site-header">
-  <div class="site-header_logo">
-    <img class="site-header_logo_img center--horizontal" src="img/procorelogo.svg" alt="">
-  </div>
-  <div class="site-header_company-picker">
- <div class="site-header_company-picker_logo">
-     </div>
-  </div>
+    <div class="site-header">
+        <div class="site-header_logo">
+            <img class="site-header_logo_img center--horizontal" src="img/procorelogo.svg" alt="">
+        </div>
+        <ul class="site-header_pages">
+            <li>
+                <a href="construction-network.html">
+                    Products
+                </a>
+            </li>
 
-  <ul class="site-header_pages">
-    <li>
-      <a class="site-header_pages_selected" href="construction-network.html">
-      Construction Network
-      </a>
-    </li>
+            <li>
+                <a class="" href="company-profile.html">
+                    Solutions
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    Pricing
+                </a>
+            </li>
 
-    <li>
-      <a class="" href="company-profile.html">
-      Company Profile
-      </a>
-    </li>
-    <li>
-      <a  href="index.html">
-        Planroom
-      </a>
-    </li>
+            <li>
+                <a class="" href="projects.html">
+                    Customers
+                </a>
+            </li>
 
-    <li>
-      <a class="" href="projects.html">
-        Projects
-      </a>
-    </li>
+            <li>
+                <a class="" href="projects.html">
+                    Resources
+                </a>
+            </li>
+
+            <li>
+                <a class="site-header_pages_selected" href="construction-network.html">
+                    Construction Network
+                </a>
+            </li>
+        </ul>
+        <button class=" header-buttons">
+            <spinner><svg class="spinner" viewBox="0 0 48 48">
+                    <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+                </svg></spinner><label> Create free account </label>
+        </button>
+        <button class=" header-buttons--login secondary loading-bois">
+            <spinner><svg class="spinner" viewBox="0 0 48 48">
+                    <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+                </svg></spinner><label> Login</label>
+        </button>
 
 
-  </ul>
 
-</div>
+    </div>
 
-<!-- Tool Header -->
+    <div class="construction-network-search">
+            <img class="site-header_logo_img revealing-logo reveal center--horizontal" src="img/procorelogo.svg" alt="">
+        
+        <form>
+            <select id="search-selector" name="search-selector">
+                <option value="Companies">Companies</option>
+                <option value="Projects">Projects</option>
+            </select>
+            <input type="search" placeholder="Search GC's or Specialty Contractors (e.g. Electrical, Concrete, etc)">
 
-<!-- <div class="construction-network-search">
+            <input class="zip" type="text" name="" value="78620">
+        </form>
+        
+         <button class="tertiary reveal revealing-button loading-bois">
+            <spinner><svg class="spinner" viewBox="0 0 48 48">
+                    <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+                </svg></spinner><label> List Your Business</label>
+        </button>
+
+
+    </div>
+
+    <!-- Tool Header -->
+
+    <!-- <div class="construction-network-search">
   <form>
   	<input type="search" placeholder="Search GC's or Specialty Contractors (e.g. Electrical, Concrete, etc)">
     <input type="text" name="" value="78620">
@@ -74,152 +113,460 @@
 </div> -->
 
 
-<div class="hero unander-hero">
-</div>
-<section class="company-page">
-<div class="general-information">
-  <div class="listing_logo listing_logo_unander ">
-  </div>
-  <div class="company-name">
-    <h1>Unander Construction</h1>
-  </div>
-  <div class="services">
-    <ul>
-      <li>Project Planning </li>
-      <li> Detailed Estimating </li>
-      <li>Value Engineering </li>
-      <li> Timeline Development </li>
-      <li> Site Review </li>
-      <li> Plan Review </li>
-      <li>Samples and mockups </li>
-      <li>Green Building Recommendations</li>
-    </ul>
+    <div class="hero unander-hero">
+    </div>
+    <section class="company-page">
+        <div class="business-profile-card general-information">
+            <div class="listing_logo listing_logo_unander ">
+            </div>
+            <div class="company-name">
+                <h1>Unander Construction</h1>
+            </div>
+            <div class="services">
+                <ul>
+                    <li>Project Planning </li>
+                    <li> Detailed Estimating </li>
+                    <li>Value Engineering </li>
+                    <li> Timeline Development </li>
+                    <li> Site Review </li>
+                    <li> Plan Review </li>
+                    <li>Samples and mockups </li>
+                    <li>Green Building Recommendations</li>
+                </ul>
+            </div>
+            
+             <div class="business__activity">
+                        <span class="count"> 5</span> <span> Active Procore Projects</span>
+                    </div>
+            <div class="service-area">
+                <ul>Service Area: <br>
+                    <li>Travis County, TX </li>
+                    <li> Dripping Springs, TX </li>
+                    <li>Blanco, TX </li>
+                </ul>
+            </div>
 
-  </div>
-  <button class="secondary loading-bois" ><spinner><svg class="spinner" viewBox="0 0 48 48">
-    <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
-    </svg></spinner><label> Add To Directory</label>
-  </button>
-  <button class="secondary loading-bois" ><spinner><svg class="spinner" viewBox="0 0 48 48">
-    <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
-    </svg></spinner><label> View Contacts</label>
-  </button>
+            <div class="certifications">
+                <ul>Certifications: <br>
+                    <li>SBE </li>
+                    <li> Union Member </li>
+                </ul>
+            </div>
+
+
+            <div class="business-profile-pages">
+                <ul>
+                    <li class=selected-page>Summary </li>
+                    <li> Portfolio </li>
+                    <li> Contact </li>
+                    <li> Licenses </li>
+                    <li> Testimonials </li>
+                    <li> Photos </li>
+                </ul>
+            </div>
+            <!--
+
   <div class="company-Description">
     <p>Family owned and operated,  recognized for our impeccable planning process, and strong sense of integrity, Leonard Unander Associates, Inc. is one of the most respected full service residential builders in Santa Barbara County. With our commitment to an unparalleled standard of quality and craftsmanship, we strive to provide a custom home building experience that exceeds our client’s expectations and turns their vision into reality.</p>
   </div>
-</div>
+-->
+        </div>
 
-<div class="call-to-action">
-  <div class="company-name">
-    <h1>Unander Construction</h1>
-  </div>
-  <button class="" ><spinner><svg class="spinner" viewBox="0 0 48 48">
-    <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
-    </svg></spinner><label> Request a quote </label>
-  </button>
-  <button class="secondary loading-bois" ><spinner><svg class="spinner" viewBox="0 0 48 48">
-    <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
-    </svg></spinner><label> Request Prequalification</label>
-  </button>
-</div>
+        <div class="call-to-action">
+            <div class="company-name">
+                <h1>Unander Construction</h1>
+            </div>
+             <div class="business__activity">
+                        <span class="count"> 5</span> <span> Active Procore Projects</span>
+                    </div>
+            <button class="">
+                <spinner><svg class="spinner" viewBox="0 0 48 48">
+                        <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+                    </svg></spinner><label> Contact </label>
+            </button>
 
+            <button class="secondary loading-bois">
+                <spinner><svg class="spinner" viewBox="0 0 48 48">
+                        <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+                    </svg></spinner><label> Follow company</label>
+            </button>
 
+            <button class="secondary loading-bois">
+                <spinner><svg class="spinner" viewBox="0 0 48 48">
+                        <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+                    </svg></spinner><label> Add to my contacts</label>
+            </button>
 
-<div class="profile-images">
-<div class="image-1">
-</div>
-<div class="image-group">
-  <div class="profile-image">
-    <div class=" image-2">
-    </div>
-  </div>
+        </div>
 
-<div class="profile-image">
-  <div class="image-3">
-  </div>
-</div>
+        <div class="business-profile-card  business-projects">
 
-<div class="profile-image">
-  <div class=" image-4">
-  </div>
-</div>
-
-<div class="profile-image">
-  <div class=" image-5">
-  </div>
-</div>
-
-</div>
-<button class="view-more secondary" ><spinner><svg class="spinner" viewBox="0 0 48 48">
-  <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
-</svg></spinner><label> View more photos </label>
-</button>
-</div>
+            <h2 class=card-title>
+                Portfolio
+            </h2>
 
 
+            <div class="project-types">
+                <input class="project-checkbox" type="checkbox" id="Active Projects" name="Active Projects" value="Active Projects">
+                <label class="label-for-project-checkbox" for="Active Projects">Active Projects</label>
+                <input class="project-checkbox" type="checkbox" id="Industrial" name="Industrial" value="Industrial">
+                <label class="label-for-project-checkbox" for="Industrial">Industrial</label>
+                <input class="project-checkbox" type="checkbox" id="Public Service" name="Public Service" value="Public Service">
+                <label class="label-for-project-checkbox" for="Public Service">Public Service</label>
 
-</section>
-
-
-
-
-
-
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/axe-core/2.4.2/axe.min.js'></script>
-
-<script id="rendered-js">
-$( ".loading-bois button" ).click(function() {
-  $(this).toggleClass('loading');
-});
+                <input class="project-checkbox" type="checkbox" id="MEDICAL" name="MEDICAL" value="MEDICAL">
+                <label class="label-for-project-checkbox" for="MEDICAL">MEDICAL</label>
 
 
-$(document).ready(function(){
-  var randomIcons =
-    [
-      "ci-tool-admin","ci-tool-bidding","ci-tool-budget","ci-tool-change-events","ci-tool-change-orders","ci-tool-commitments","ci-tool-crews","ci-tool-custom","ci-tool-daily-log","ci-tool-direct-costs","ci-tool-directory","ci-tool-documents","ci-tool-drawings","ci-tool-emails","ci-tool-forms","ci-tool-incidents","ci-tool-inspections","ci-tool-meetings","ci-tool-observations","ci-tool-pay","ci-tool-photos","ci-tool-prime-contract","ci-tool-project-home","ci-tool-punch-list","ci-tool-reports","ci-tool-rfis","ci-tool-rfqs","ci-tool-safety","ci-tool-schedule","ci-tool-site-instructions","ci-tool-specifications","ci-tool-submittals","ci-tool-superuser","ci-tool-tasks","ci-tool-timesheet","ci-tool-transmittals","ci-announcements","ci-app-marketplace","ci-assembly-integration","ci-attachment","ci-calculator","ci-calendar","ci-check","ci-check-circle","ci-chevron-circle-left","ci-chevron-circle-left-o","ci-chevron-circle-right","ci-chevron-circle-right-o","ci-chevron-right","ci-close","ci-cog","ci-copy","ci-create","ci-delete","ci-download","ci-draw","ci-edit","ci-ellipsis-v","ci-email","ci-error-o","ci-grab","ci-info-circle-o","ci-key","ci-launch","ci-lock","ci-pdf","ci-private","ci-reopen","ci-reply-all","ci-search","ci-angle-double-left","ci-star","ci-success-circle-o","ci-question-circle","ci-question-circle-o","ci-trash","ci-upload","ci-warning-triangle-o","ci-x-circle","ci-import","ci-DistributionGroup","ci-arrow-up","ci-arrow-down","ci-arrow-left","ci-arrow-right","ci-angle-double-right","ci-duplicate","ci-view-list","ci-view-grid","ci-view-card","ci-view-location","ci-view-kanban","ci-warning-triangle","ci-offline","ci-chevron-up","ci-chevron-down","ci-chevron-left","ci-sort-ascend","ci-sort-descend","ci-x"
-    ];
-
-  /*
-  randomIcons = [
-    "mdi-account","mdi-account-clock","mdi-android-studio"
-  ];*/
+                <input class="project-checkbox" type="checkbox" id="Office" name="Office" value="Office">
+                <label class="label-for-project-checkbox" for="Office">Office</label>
 
 
+                <input class="project-checkbox" type="checkbox" id="Education" name="Education" value="Education">
+                <label class="label-for-project-checkbox" for="Education">Education</label>
+
+                <input class="project-checkbox" type="checkbox" id="Residential" name="Residential" value="Residential">
+                <label class="label-for-project-checkbox" for="Residential">Residential</label>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26361225.2899535!2d-113.75427821848!3d36.24136419114449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sus!4v1608171495614!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            <div class="project-cards">
+                <div class="project-card">
+                    <div class="project-card--image image-3 project-card--image--healthcare">
+                    </div>
+                    <div class="project-card--title">
+                        <span>HMA Healthcare Medical Center </span>
+                    </div>
+                    <div class="project-card--value">
+                        <span>$10,000,000 </span>
+                    </div>
+
+                </div>
+                <div class="project-card">
+                    <div class="project-card--image image-4 project-card--image--healthcare">
+                    </div>
+                    <div class="project-card--title">
+                        <span>HMA Healthcare Medical Center </span>
+                    </div>
+                    <div class="project-card--value">
+                        <span>$10,000,000 </span>
+                    </div>
+
+                </div>
+                <div class="project-card">
+                    <div class="project-card--image image-2 project-card--image--healthcare">
+                    </div>
+                    <div class="project-card--title">
+                        <span>HMA Healthcare Medical Center </span>
+                    </div>
+                    <div class="project-card--value">
+                        <span>$10,000,000 </span>
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card--image image-5 project-card--image--healthcare">
+                    </div>
+                    <div class="project-card--title">
+                        <span>HMA Healthcare Medical Center </span>
+                    </div>
+                    <div class="project-card--value">
+                        <span>$10,000,000 </span>
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card--image project-card--image--healthcare">
+                    </div>
+                    <div class="project-card--title">
+                        <span>HMA Healthcare Medical Center </span>
+                    </div>
+                    <div class="project-card--value">
+                        <span>$10,000,000 </span>
+                    </div>
+
+                </div>
+            </div>
 
 
-});
 
 
 
-$(document).keypress(function(e) {
-    var key = e.which;
-    if (key == 49) {
-        // if the user pressed 't':
-        $("body").toggleClass("graybg");
+        </div>
+        <div class="card-container">
+            <div class="business-profile-card  business-general-information">
 
-    }
+                <h2 class=card-title>
+                    Contact Information
+                </h2>
 
-   if (key == 50) {
-        // if the user pressed 't':
-        $("body").toggleClass("dark");
+                <div class="business-profile-card--data">
+                    <div class="business-profile-card--data--header">
+                        Office Address
+                    </div>
+                    <div class="business-profile-card--data--content">
+                        500 1st Street <br>
+                        Ventura CA, 93004<br>
+                        USA
+                    </div>
+                </div>
 
-    }
+                <div class="business-profile-card--data">
+                    <div class="business-profile-card--data--header">
+                        Phone Number
+                    </div>
+                    <div class="business-profile-card--data--content">
+                        (805) 823-8541
+                    </div>
+                </div>
 
-  if (key == 51) {
-        // if the user pressed 't':
-        $("body").toggleClass("no-outlines");
-
-    }
-
-
-
-
-
+                <div class="business-profile-card--data">
+                    <div class="business-profile-card--data--header">
+                        Website
+                    </div>
+                    <div class="business-profile-card--data--content">
+                        www.allenconstructioininc.com
+                    </div>
+                </div>
 
 
-});
+            </div>
+
+            <div class="business-profile-card  business-license-information">
+                <h2 class=card-title>
+                    Licenses
+                </h2>
+
+                <div class="business-profile-card--data">
+                    <div class="business-profile-card--data--header">
+                        License Number
+                    </div>
+                    <div class="business-profile-card--data--content">
+                        910-122-0191
+                    </div>
+                </div>
+
+                <div class="business-profile-card--data">
+                    <div class="business-profile-card--data--header">
+                        Status
+                    </div>
+                    <div class="business-profile-card--data--content pill">
+                        Active
+                    </div>
+                </div>
+
+                <div class="business-profile-card--data">
+                    <div class="business-profile-card--data--header">
+                        State
+                    </div>
+                    <div class="business-profile-card--data--content">
+                        Texas </div>
+                </div>
+                <div class="business-profile-card--data">
+                    <div class="business-profile-card--data--header">
+                        Type
+                    </div>
+                    <div class="business-profile-card--data--content">
+                        Residencial, Commercial, Electrical Contractor License </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="business-profile-card  business-testimonials">
+
+            <h2 class=card-title>
+                Testimonials
+            </h2>
+        </div>
+
+        <div class="profile-images">
+            <div class="image-1">
+            </div>
+            <div class="image-group">
+                <div class="profile-image">
+                    <div class=" image-2">
+                    </div>
+                </div>
+
+                <div class="profile-image">
+                    <div class="image-3">
+                    </div>
+                </div>
+
+                <div class="profile-image">
+                    <div class=" image-4">
+                    </div>
+                </div>
+
+                <div class="profile-image">
+                    <div class=" image-5">
+                    </div>
+                </div>
+
+            </div>
+            <button class="view-more secondary">
+                <spinner><svg class="spinner" viewBox="0 0 48 48">
+                        <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+                    </svg></spinner><label> View more photos </label>
+            </button>
+        </div>
+
+        <div class="business-profile-full">
+
+            <h2 class=card-title>
+                People also viewed
+            </h2>
+            <div class="similar-businesses">
+                <div class="similar-businesses__business">
+                    <div class="business__logo">
+                    </div>
+                    <div class="business__name">
+                        <span> Company Name</span>
+                    </div>
+                    <div class="business__activity">
+                        <span class="count"> 2</span> <span> Active Procore Projects</span>
+                    </div>
+
+                </div>
+
+                <div class="similar-businesses__business">
+                    <div class="business__logo">
+                    </div>
+                    <div class="business__name">
+                        <span> Company Name</span>
+                    </div>
+                    <div class="business__activity">
+                        <span class="count"> 2</span> <span> Active Procore Projects</span>
+                    </div>
+
+                </div>
+
+                <div class="similar-businesses__business">
+                    <div class="business__logo">
+                    </div>
+                    <div class="business__name">
+                        <span> Company Name</span>
+                    </div>
+                    <div class="business__activity">
+                        <span class="count"> 2</span> <span> Active Procore Projects</span>
+                    </div>
+
+                </div>
+
+                <div class="similar-businesses__business">
+                    <div class="business__logo">
+                    </div>
+                    <div class="business__name">
+                        <span> Company Name</span>
+                    </div>
+                    <div class="business__activity">
+                        <span class="count"> 2</span> <span> Active Procore Projects</span>
+                    </div>
+
+                </div>
+
+                <div class="similar-businesses__business">
+                    <div class="business__logo">
+                    </div>
+                    <div class="business__name">
+                        <span> Company Name</span>
+                    </div>
+                    <div class="business__activity">
+                        <span class="count"> 2</span> <span> Active Procore Projects</span>
+                    </div>
+
+                </div>
+
+                <div class="similar-businesses__business">
+                    <div class="business__logo">
+                    </div>
+                    <div class="business__name">
+                        <span> Company Name</span>
+                    </div>
+                    <div class="business__activity">
+                        <span class="count"> 2</span> <span> Active Procore Projects</span>
+                    </div>
+
+                </div>
+                <div class="similar-businesses__business">
+                    <div class="business__logo">
+                    </div>
+                    <div class="business__name">
+                        <span> Company Name</span>
+                    </div>
+                    <div class="business__activity">
+                        <span class="count"> 2</span> <span> Active Procore Projects</span>
+                    </div>
+
+                </div>
+                <div class="similar-businesses__business">
+                    <div class="business__logo">
+                    </div>
+                    <div class="business__name">
+                        <span> Company Name</span>
+                    </div>
+                    <div class="business__activity">
+                        <span class="count"> 2</span> <span> Active Procore Projects</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axe-core/2.4.2/axe.min.js'></script>
+
+    <script id="rendered-js">
+        $(".loading-bois button").click(function() {
+            $(this).toggleClass('loading');
+        });
+
+
+        $(document).ready(function() {
+            var randomIcons = [
+                "ci-tool-admin", "ci-tool-bidding", "ci-tool-budget", "ci-tool-change-events", "ci-tool-change-orders", "ci-tool-commitments", "ci-tool-crews", "ci-tool-custom", "ci-tool-daily-log", "ci-tool-direct-costs", "ci-tool-directory", "ci-tool-documents", "ci-tool-drawings", "ci-tool-emails", "ci-tool-forms", "ci-tool-incidents", "ci-tool-inspections", "ci-tool-meetings", "ci-tool-observations", "ci-tool-pay", "ci-tool-photos", "ci-tool-prime-contract", "ci-tool-project-home", "ci-tool-punch-list", "ci-tool-reports", "ci-tool-rfis", "ci-tool-rfqs", "ci-tool-safety", "ci-tool-schedule", "ci-tool-site-instructions", "ci-tool-specifications", "ci-tool-submittals", "ci-tool-superuser", "ci-tool-tasks", "ci-tool-timesheet", "ci-tool-transmittals", "ci-announcements", "ci-app-marketplace", "ci-assembly-integration", "ci-attachment", "ci-calculator", "ci-calendar", "ci-check", "ci-check-circle", "ci-chevron-circle-left", "ci-chevron-circle-left-o", "ci-chevron-circle-right", "ci-chevron-circle-right-o", "ci-chevron-right", "ci-close", "ci-cog", "ci-copy", "ci-create", "ci-delete", "ci-download", "ci-draw", "ci-edit", "ci-ellipsis-v", "ci-email", "ci-error-o", "ci-grab", "ci-info-circle-o", "ci-key", "ci-launch", "ci-lock", "ci-pdf", "ci-private", "ci-reopen", "ci-reply-all", "ci-search", "ci-angle-double-left", "ci-star", "ci-success-circle-o", "ci-question-circle", "ci-question-circle-o", "ci-trash", "ci-upload", "ci-warning-triangle-o", "ci-x-circle", "ci-import", "ci-DistributionGroup", "ci-arrow-up", "ci-arrow-down", "ci-arrow-left", "ci-arrow-right", "ci-angle-double-right", "ci-duplicate", "ci-view-list", "ci-view-grid", "ci-view-card", "ci-view-location", "ci-view-kanban", "ci-warning-triangle", "ci-offline", "ci-chevron-up", "ci-chevron-down", "ci-chevron-left", "ci-sort-ascend", "ci-sort-descend", "ci-x"
+            ];
+
+        });
+
+
+        var wrap = $("#wrap");
+
+        wrap.on("scroll", function(e) {
+
+            if (this.scrollTop > 147) {
+                wrap.addClass("fix-search");
+            } else {
+                wrap.removeClass("fix-search");
+            }
+
+        });
     </script>
+    
+    <script>
+    
+$(function(){
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+            $('.reveal').css('visibility','visible');
+            $('.reveal').fadeIn('fast');
+        }
+        else {
+            $('.reveal').fadeOut('fast');
+        }
+    });
+});    </script>
 
 </body>
 

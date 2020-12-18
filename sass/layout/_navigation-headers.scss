@@ -1,74 +1,56 @@
 .site-header {
-  background: #000;
+  background: #fff;
   width: 100vw;
-  height: 64px;
-  padding-left: 24px;
+  height: 77px;
   padding-right: 24px;
   z-index: 100;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  position: fixed;
   z-index: 200;
+    border-bottom: 1px solid rgba(0,0,0,.08);
+ 
+    
 
   &_logo {
-    height:48px;
-    width: 48px;
-    border-right: 1px solid #5E696E;
-    position: relative;
+     margin-left: 50px;
+     width: 150px;
+      margin-right: 24px;
 
 
     &_img {
-      transform: translateY(-50%);
-      top: 50%;
-      position: absolute;
+        width: 150px;
     }
   }
-  &_company-picker{
-   height: 48px;
-   width: 152px;
-   background-color: #fff;
-   border-radius: 4px;
-   margin-right: 16px;
-   padding: 4px;
-   margin-left: 16px;
 
-   &_logo {
-    background-image: url(../img/jim-peterson.png);
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-   }
-  }
-
+    .header-buttons {
+        margin: 0px 0px 0px auto;
+        height: 48px;
+        
+        &--login {
+            margin: 0px 50px 0px 24px;
+             height: 48px;
+        }
+    }
 
 &_pages {
-font-size: 14px;
+font-size: 15px;
 line-height: 20px;
 text-align: center;
-font-weight: bold;
+font-weight: 500;
 letter-spacing: 0.25px;
   li {
     display: inline-block;
 transition: 200ms;
-padding-bottom: 8px;
-padding: 14px 24px;
-border: 1px solid black;
+       padding: 10px 0 4px;
+    margin: 22px 12.5px;
+    border-bottom: 2px solid transparent;
+    position: relative;
 
-
-&:hover {
-    background: hsl(200, 8%, 15%);
-    border-radius: 8px;
-    color: #fff;
-    cursor: pointer;
-  border:  1px solid #2f3437
-}
 
 a {
-  color: #B3B3B3;
+  color: #555;
+   
 }
   }
 
@@ -83,6 +65,22 @@ a {
   }
 }
 
+}
+
+.revealing-logo {
+    left: 50px;
+    top: 35px;
+    position: absolute;
+}
+
+.revealing-button {
+      right: 50px;
+    top: 23px;
+    position: absolute;
+}
+
+.reveal {
+    visibility: hidden;
 }
 
 
