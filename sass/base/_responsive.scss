@@ -1,0 +1,174 @@
+@include respond(tab-port) {
+    .site-header_logo {
+        margin-left: 1rem;
+    }
+
+    .site-header .header-buttons--login {
+        margin: 0px 1rem 0px auto;
+    }
+
+    .construction-network-search form {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 65rem;
+        margin: 0 auto;
+    }
+
+    input[type="search"] {
+        margin-bottom: 8px;
+    }
+
+    .construction-network-search input[type=search] {
+        max-width: 100%;
+        height: 32px;
+    }
+
+    .search-hero .construction-network-search input {
+        margin-right: 0px;
+
+    }
+
+    .search-hero .construction-network-search button,
+    .search-hero .construction-network-search select {
+        margin-right: 0px;
+        width: 49%;
+        height: 56px;
+    }
+
+    .construction-network-search input[type=text] {
+        width: 49%;
+    }
+
+    .search-hero .construction-network-search button,
+    .search-hero .construction-network-search a,
+        {
+        width: 100%;
+        margin-top: 8px;
+        height: 56px;
+    }
+
+    .business-srp-page_results_cards_listing:not(:last-child) {
+        margin-right: 0px;
+    }
+
+
+    .landing-page-section .similar-businesses {
+        overflow: scroll;
+    }
+
+    .flex-start {
+        flex-wrap: wrap;
+    }
+
+    .company-type {
+        .flex-start {
+            flex-wrap: nowrap;
+            overflow: scroll;
+        }
+    }
+
+    .business-srp-page_results_cards_listing {
+        min-width: 45rem;
+    }
+
+    .trade-option {
+        width: 50%;
+        max-width: 22rem;
+
+    }
+
+    //    SRP
+
+    .filter-reveal-checkbox {
+        display: inline-block;
+    }
+
+//            make filters appear
+    .srp-filters {
+
+        select {
+
+            display: none;
+        }
+    }
+
+  .filter-reveal:checked ~ select {
+        display: inline-block;
+    }
+
+
+
+    .business-srp-page_maps-and-links {
+        display: none;
+    }
+
+    .business-srp-page_results {
+        width: 100%;
+    }
+
+    .business-srp-page {
+
+        padding: 0px;
+    }
+
+    //    sticky search header
+
+    .revealing-logo {
+        display: none;
+    }
+
+    .revealing-button {
+        display: none;
+    }
+
+    #srp-page, #business-profile {
+        .construction-network-search select {
+            display: none;
+        }
+
+        .zip {
+            display: none;
+        }
+
+
+        .construction-network-search input[type=search] {
+            margin: 0px;
+            padding: 4px 12px 4px 40px;
+
+
+
+        }
+    }
+
+    .construction-network-search {
+        padding: 8px 24px;
+
+    }
+
+    // business profile pages
+
+    .sticky-side {
+      display: none;
+    }
+.company-page .main-section {
+  width: 100%;
+}
+
+}
+@include respond(phone) {
+  .company-page .card-container .business-profile-card {
+    width: 100%;
+
+  }
+  .company-page .card-container .business-profile-card:not(:last-child) {
+      margin-right: 0px;
+  }
+
+  .company-page .profile-images .image-1 {
+    width: 100%;
+  }
+
+  .company-page .profile-images .image-group {
+    display: none;
+  }
+}

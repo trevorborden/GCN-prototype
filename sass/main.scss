@@ -1,6 +1,6 @@
 @import "abstract/functions";
 @import "abstract/mixins";
-@import "abstract/variables";
+
 
 @import "base/base";
 @import "base/animations";
@@ -12,8 +12,10 @@
 
 @import "layout/navigation-headers";
 @import "layout/page-content";
-@import "layout/company-profile";
 @import "layout/construction-network";
 @import "layout/business-profile";
+@import "layout/landing-page";
 
 @import "pages/retro-smartlist";
+
+@import "base/responsive";

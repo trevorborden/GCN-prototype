@@ -1,0 +1,286 @@
+.landing-page-body {
+    background: #fff;
+}
+
+.search-hero {
+    height: 70vh;
+    background: #232729;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-size: cover;
+
+    h1 {
+        color: #fff;
+        text-align: center;
+        text-shadow: 0px 1rem 2.5rem rgba(0, 0, 0, .12);
+        font-size: 3rem;
+        margin-bottom: 1.2rem;
+
+    }
+
+    h2 {
+        color: #fff;
+        text-align: center;
+        text-shadow: 0px 10px 25px rgba(0, 0, 0, .12);
+        font-size: 1.8rem;
+        opacity: 0.5;
+        margin-bottom: 2.4rem;
+    }
+
+    .construction-network-search {
+        background: none;
+        box-shadow: none;
+
+        button,
+        select {
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, .12);
+            height: 4.8rem;
+            border-radius: 6px;
+        }
+
+        input {
+            border-radius: 6px;
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, .12);
+        }
+    }
+}
+
+.content {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: left;
+}
+
+.landing-page-section {
+
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 7.6rem;
+
+    h2 {
+        font-size: 2.2rem;
+        font-weight: 600;
+        text-align: left;
+        margin-bottom: 3.2rem;
+    }
+
+    .suggested-cities {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        border-bottom: 2px solid #ACB5B9;
+        padding-bottom: 1.6rem;
+        margin-bottom: 2.4rem;
+
+        li {
+            text-decoration: none;
+            list-style: none;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 2rem;
+
+
+        }
+    }
+
+    .similar-businesses {
+        margin: 0 auto;
+        justify-content: space-between;
+        overflow: visible;
+
+
+
+    }
+}
+
+.company-type {
+    background: #232729;
+    color: #fff;
+    padding: 3.2rem 0px 14rem 0px;
+    width: 100%;
+    background: #232729;
+    margin-top: 8rem;
+
+
+}
+
+.company-type-option {
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    max-height: 17.9rem;
+    min-width: 17.9rem;
+    text-align: center;
+    padding: 1.6rem 1.6rem;
+    background: #232729;
+    box-shadow: 0 0 16px -4px black;
+    border: 1px solid #2f3437;
+    transition: 300ms;
+
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 2px -4px black;
+    }
+
+    &:not(:last-child) {
+        margin-right: 2.4rem;
+    }
+}
+
+.company-type__image {
+    height: 10rem;
+    width: 10rem;
+    margin: 0 auto;
+
+}
+
+.company-type__title {
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+
+}
+
+.general-contractor {
+    background-image: url(../img/GC.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.specialty-contractor {
+    background-image: url(../img/specialty.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.Architects-Designers {
+    background-image: url(../img/Architect.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.suppliers-vendors {
+    background-image: url(../img/vendor.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.trade-option {
+    background-color: #fff;
+    box-shadow: 0px 10px 25px #D4D7E4;
+    border-radius: 8px;
+    height: 17.9rem;
+    max-width: 17.9rem;
+    width: 33%;
+    position: relative;
+    transition: 300ms;
+    margin-bottom: 1.6rem;
+    border: 1px solid #fff;
+    background-repeat: no-repeat;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: none;
+        border: 1px solid blue;
+    }
+
+
+
+    .trade-name {
+        font-weight: bold;
+        font-size: 1.6rem;
+        line-height: 5.2rem;
+        background: #FFFFFF;
+        box-shadow: 0px -3px 4px rgba(0, 0, 0, 0.25);
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        text-align: center;
+        height: 5.2rem;
+        border-radius: 0px 0px 6px 6px;
+    }
+}
+
+.concrete {
+    background-image: url(../img/concrete.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.electrical {
+    background-image: url(../img/electrical.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.finishes {
+    background-image: url(../img/finishes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.demolition {
+    background-image: url(../img/demolition.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.landscaping {
+    background-image: url(../img/landscaping.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.steel {
+    background-image: url(../img/steel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.roofing {
+    background-image: url(../img/roofing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.siding {
+    background-image: url(../img/siding.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.weather {
+    background-image: url(../img/weather.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.drywall {
+    background-image: url(../img/drywall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

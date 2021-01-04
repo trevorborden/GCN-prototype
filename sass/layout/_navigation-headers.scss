@@ -1,8 +1,7 @@
 .site-header {
   background: #fff;
   width: 100vw;
-  height: 77px;
-  padding-right: 24px;
+  height: 7.7rem;
   z-index: 100;
   display: flex;
   justify-content: flex-start;
@@ -13,23 +12,23 @@
     
 
   &_logo {
-     margin-left: 50px;
-     width: 150px;
-      margin-right: 24px;
+     margin-left: 5rem;
+     width: 15rem;
+      margin-right: 2.4rem;
 
 
     &_img {
-        width: 150px;
+        width: 15rem;
     }
   }
 
     .header-buttons {
         margin: 0px 0px 0px auto;
-        height: 48px;
+        height: 4.8rem;
         
         &--login {
-            margin: 0px 50px 0px 24px;
-             height: 48px;
+            margin: 0px 5rem 0px auto;
+             height: 4.8rem;
         }
     }
 
@@ -68,13 +67,13 @@ a {
 }
 
 .revealing-logo {
-    left: 50px;
+    left: 5rem;
     top: 35px;
     position: absolute;
 }
 
 .revealing-button {
-      right: 50px;
+      right: 5rem;
     top: 23px;
     position: absolute;
 }
@@ -90,13 +89,13 @@ a {
   width: 100vw;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0px 24px;
-  margin-top:  64px;
+  padding: 0px 2.4rem;
+  margin-top:  6.4rem;
   opacity: 0%;
   animation-delay: 100ms;
   animation: FadeIn 1000ms;
   animation-fill-mode: forwards;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 
   &_name-and-instruction{
 
@@ -109,13 +108,13 @@ a {
 &_name {
 font-style: normal;
 font-weight: bold;
-font-size: 34px;
-line-height: 44px;
+font-size: 3.4rem;
+line-height: 4.4rem;
 margin-top: 38px;
 }
 
 &_actions {
-  margin-top: 38px;
+  margin-top: 3.8rem;
 
 }
 

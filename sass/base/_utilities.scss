@@ -1,18 +1,104 @@
 .half {
-  width: 50%;
+    width: 50%;
 }
 
 .full {
-  width: 100%;
+    width: 100%;
 }
 
 
 // Core overrides
 
-.core-checkbox__input:checked+.core-checkbox__label:before {
+.core-checkbox__input:checked + .core-checkbox__label:before {
     border-radius: 2px;
-  }
+}
 
 .core-checkbox__label:before {
-      border-radius: 2px;
-    }
+    border-radius: 2px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+.logo_turner {
+    background-image: url(../img/turner.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo_unander {
+    background-image: url(../img/unander-logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo_AC {
+    background-image: url(../img/ACelectric.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo_DE {
+    background-image: url(../img/DE.png);
+    background-color: #EEF0F1 !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo_EE {
+    background-image: url(../img/EE.png);
+    background-color: #EEF0F1 !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo_JP {
+    background-image: url(../img/jim-peterson.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.logo_todd {
+    background-image: url(../img/todd.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.logo_bw {
+    background-image: url(../img/bw.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.logo_jr {
+    background-image: url(../img/jr-electric.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
