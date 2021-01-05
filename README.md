@@ -1,0 +1,1 @@
+Use the "landing-page.html" as the home screen
