@@ -211,7 +211,7 @@ body {
 }
 
 .logo_bw {
-  background-image: url(../img/bw.png);
+  background-image: url(../img/BW.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2868,7 +2868,7 @@ input[type=radio] {
 }
 
 .siding {
-  background-image: url(../img/siding.jpg);
+  background-image: url(../img/Siding.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
