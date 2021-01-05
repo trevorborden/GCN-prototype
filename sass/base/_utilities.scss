@@ -102,3 +102,16 @@
     background-repeat: no-repeat;
     background-color: #fff;
 }
+
+.claimed {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  font-size: 11px;
+  margin-left: auto;
+
+  .material-icons-round {
+    color: #FF5100;
+    margin-right: 4px;
+  }
+}

@@ -30,7 +30,7 @@
 }
 
 .jp-hero {
-  background: #4D1800;
+  background-image: url(../img/portfolio.jpg);;
   background-position: center;
   background-size: cover;
 
@@ -81,7 +81,7 @@ top: -90px;
         .business-profile-card {
             width: calc(50% - 12px);
             display: inline-block;
-            min-width: 300px;
+            min-width: 271px;
 
             &:not(:last-child) {
                 margin-right: 2.4rem;
@@ -160,12 +160,10 @@ top: -90px;
 
 
     .general-information {
-
-
         position: relative;
-
-
     }
+
+
 
     .listing_logo {
         width: 13rem;
@@ -399,12 +397,26 @@ top: -90px;
         height: fit-content;
         position: sticky;
         top: 100px;
-            margin-top: 24px;
+        margin-top: 24px;
 
          h2 {
            font-weight: bold;
-font-size: 18px;
-line-height: 32px;
+           font-size: 18px;
+           line-height: 32px;
+         }
+
+         .claim-promt {
+           font-size: 16px;
+           font-weight: bold;
+           color: rgba(0, 0, 0, .32);
+           margin-bottom: 8px;
+         }
+
+         .divider {
+           width: 100%;
+           height: 1px;
+           background: rgba(0, 0, 0, .04);
+           margin-bottom: 16px;
          }
          .business-srp-page_results_cards_listing{
            min-width: 100%;
@@ -413,13 +425,14 @@ border-radius: 8px;
 box-shadow: none;
 
 .listing_info_name{
-  font-size: 2rem;
+  font-size: 1.8rem;
+  line-height: normal;
 }
          }
 
          .listing_logo{
-           height: 8rem;
-           width: 8rem;
+           height: 6rem;
+           width: 6rem;
            position: inherit;
 
          }
@@ -427,7 +440,7 @@ box-shadow: none;
         .company-name {
             margin: 0px 0px 24px 0px;
             font-weight: bold;
-            font-size: 28px;
+            font-size: 2.8rem;
             line-height: 32px;
         }
 
@@ -436,6 +449,10 @@ box-shadow: none;
             width: 100%;
             margin-bottom: 16px;
         }
+    }
+
+    .second-sticky-card {
+      top: 368px;
     }
 
     .profile-images {
