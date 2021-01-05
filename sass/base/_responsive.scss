@@ -60,6 +60,9 @@
     .landing-page-section .similar-businesses {
         overflow: scroll;
     }
+    .suggested-cities li:nth-child(2){
+      display: none;
+    }
 
     .flex-start {
         flex-wrap: wrap;
@@ -73,7 +76,7 @@
     }
 
     .business-srp-page_results_cards_listing {
-        min-width: 45rem;
+        min-width: 44rem;
     }
 
     .trade-option {

@@ -2652,14 +2652,14 @@ input[type=radio] {
   color: #fff;
   text-align: center;
   text-shadow: 0px 1rem 2.5rem rgba(0, 0, 0, 0.12);
-  font-size: 3rem;
+  font-size: 3.2rem;
   margin-bottom: 12px;
 }
 .search-hero h2 {
   color: #fff;
   text-align: center;
   text-shadow: 0px 10px 25px rgba(0, 0, 0, 0.12);
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   opacity: 0.5;
   margin-bottom: 2.4rem;
 }
@@ -3173,6 +3173,10 @@ input[type=radio] {
     overflow: scroll;
   }
 
+  .suggested-cities li:nth-child(2) {
+    display: none;
+  }
+
   .flex-start {
     flex-wrap: wrap;
   }
@@ -3183,7 +3187,7 @@ input[type=radio] {
   }
 
   .business-srp-page_results_cards_listing {
-    min-width: 45rem;
+    min-width: 44rem;
   }
 
   .trade-option {
