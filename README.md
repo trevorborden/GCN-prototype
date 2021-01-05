@@ -1,1 +1,1 @@
-Use the "landing-page.html" as the home screen
+Use the "index.html" as the home screen
