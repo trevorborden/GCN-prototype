@@ -258,7 +258,7 @@ input:focus {
 
 h1 {
   color: #232729;
-  font-size: 26px;
+  font-size: 2.6rem;
   line-height: 32px;
   letter-spacing: 0.15px;
   font-weight: 800;
@@ -1772,7 +1772,7 @@ input[type=radio] {
 .construction-network-search .zip {
   width: 12rem;
   background: #fff url(../img/location_on-24px.svg) no-repeat 9px center;
-  padding: 1.2rem 1.2rem 1.2rem 4rem;
+  padding: 12px 12px 12px 4rem;
   margin-right: 0.8rem;
 }
 .construction-network-search input[type=text] {
@@ -2215,7 +2215,7 @@ input[type=radio] {
   color: #fff;
   border-radius: 15px;
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 12px;
   padding: 2px 8px;
 }
 .company-page .business-profile-card--data .pill--green {
@@ -2224,7 +2224,7 @@ input[type=radio] {
   color: #fff;
   border-radius: 15px;
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 12px;
   padding: 2px 8px;
 }
 .company-page .card-title {
@@ -2360,7 +2360,7 @@ input[type=radio] {
   margin-bottom: 2.4rem;
 }
 .company-page .project-card:not(:last-child) {
-  margin-right: 1.2rem;
+  margin-right: 12px;
 }
 .company-page .project-card--title {
   font-weight: bold;
@@ -2395,7 +2395,7 @@ input[type=radio] {
   font-weight: 500;
   color: #232729;
   background: #fff;
-  margin-top: 1.2rem;
+  margin-top: 12px;
 }
 .company-page .business-profile-pages ul li:not(:last-child) {
   margin-right: 2.4rem;
@@ -2562,7 +2562,7 @@ input[type=radio] {
   overflow: scroll;
 }
 .similar-businesses__business:not(:last-child) {
-  margin-right: 26px;
+  margin-right: 2.6rem;
 }
 .similar-businesses__business:hover .business__logo {
   box-shadow: 0px 0px 1px #D4D7E4;
@@ -2592,7 +2592,7 @@ input[type=radio] {
 
 .business__activity {
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 12px;
   line-height: 2rem;
   margin-bottom: 1.6rem;
   text-align: left;
@@ -2620,7 +2620,7 @@ input[type=radio] {
 }
 
 .label-for-project-checkbox {
-  font-size: 1.2rem;
+  font-size: 12px;
   font-weight: 500;
   line-height: 2.4rem;
   letter-spacing: 0.4px;
@@ -2653,7 +2653,7 @@ input[type=radio] {
   text-align: center;
   text-shadow: 0px 1rem 2.5rem rgba(0, 0, 0, 0.12);
   font-size: 3rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 12px;
 }
 .search-hero h2 {
   color: #fff;

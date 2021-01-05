@@ -133,7 +133,7 @@ top: -90px;
                 color: #fff;
                 border-radius: 15px;
                 display: inline-block;
-                font-size: 1.2rem;
+                font-size: 12px;
                 padding: 2px 8px;
             }
             .pill--green {
@@ -142,7 +142,7 @@ top: -90px;
                 color: #fff;
                 border-radius: 15px;
                 display: inline-block;
-                font-size: 1.2rem;
+                font-size: 12px;
                 padding: 2px 8px;
             }
 
@@ -319,7 +319,7 @@ top: -90px;
         }
 
         &:not(:last-child) {
-            margin-right: 1.2rem;
+            margin-right: 12px;
         }
 
         &--title {
@@ -364,7 +364,7 @@ top: -90px;
                 font-weight: 500;
                 color: #232729;
                 background: #fff;
-                margin-top: 1.2rem;
+                margin-top: 12px;
 
             }
 
@@ -580,7 +580,7 @@ box-shadow: none;
 
         &__business {
             &:not(:last-child) {
-                 margin-right: 26px;
+                 margin-right: 2.6rem;
             }
 
             &:hover .business__logo {
@@ -617,7 +617,7 @@ box-shadow: none;
     .business__activity {
 
         font-weight: 700;
-        font-size: 1.2rem;
+        font-size: 12px;
         line-height: 2rem;
         margin-bottom: 1.6rem;
         text-align: left;
@@ -648,7 +648,7 @@ box-shadow: none;
     }
 
     .label-for-project-checkbox {
-        font-size: 1.2rem;
+        font-size: 12px;
         font-weight: 500;
         line-height: 2.4rem;
         letter-spacing: 0.4px;
