@@ -83,7 +83,7 @@
 
     <section class="search-hero">
         <h1>All the pros on one platform.</h1>
-        <h2>152,649 companies and counting. </h2>
+        <h2>152,<span class="Single">649</span> companies and counting. </h2>
 
         <h2></h2>
         <div class="construction-network-search">
@@ -140,7 +140,7 @@
                     <span> Unander Construction</span>
                 </div>
                 <div class="business__activity">
-                    <span class="count"> 5</span> <span> Active Procore Projects</span>
+                    <span class="count">7</span> <span> Active Procore Projects</span>
                 </div>
 
             </div>
@@ -626,6 +626,17 @@
 
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script> $({ Counter: 600 }).animate({
+  Counter: $('.Single').text()
+}, {
+  duration: 20000,
+  easing: 'linear',
+  step: function() {
+    $('.Single').text(Math.ceil(this.Counter));
+  }
+});</script>
 
 </body>
 
