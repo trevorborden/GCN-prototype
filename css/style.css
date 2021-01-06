@@ -2596,6 +2596,7 @@ input[type=radio] {
   line-height: 2rem;
   margin-bottom: 1.6rem;
   text-align: left;
+  width: 100%;
 }
 .business__activity .count {
   background: #ff5100;
