@@ -3282,6 +3282,10 @@ input[type=radio] {
   .company-page .main-section {
     width: 100%;
   }
+
+  .hide-on-mobile {
+    display: none;
+  }
 }
 @media only screen and (max-width: 37.5em) {
   .company-page .card-container .business-profile-card {

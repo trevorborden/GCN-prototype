@@ -1,4 +1,8 @@
 @include respond(tab-port) {
+
+
+
+
     .site-header_logo {
         margin-left: 1rem;
     }
@@ -201,6 +205,13 @@
 
 .company-page .main-section {
   width: 100%;
+}
+
+
+// utilities
+
+.hide-on-mobile{
+    display: none;
 }
 
 }
