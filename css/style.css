@@ -1965,8 +1965,7 @@ input[type=radio] {
   flex-wrap: wrap;
 }
 .business-srp-page_results_cards_listing .listing_info_certifications_token {
-  background-color: #1D5CC9;
-  color: #fff;
+  background-color: #E3E6E8;
   padding: 2px 8px;
   border-radius: 4px;
   font-weight: bold;

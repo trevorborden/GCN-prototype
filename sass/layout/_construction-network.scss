@@ -271,20 +271,19 @@ font-size: 2.4rem;
                         flex-wrap: wrap;
 
                         &_token {
-                            background-color: #1D5CC9;
-                            color: #fff;
-                            padding: 2px 8px;
-                            border-radius: 4px;
-                            font-weight: bold;
-                            font-size: 10px;
-                            text-align: center;
-                            letter-spacing: 0.75px;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            width: fit-content;
-                            margin-right: 4px;
-                            text-transform: uppercase;
+                          background-color: #E3E6E8;
+                          padding: 2px 8px;
+                          border-radius: 4px;
+                          font-weight: bold;
+                          font-size: 10px;
+                          text-align: center;
+                          letter-spacing: 0.75px;
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          width: fit-content;
+                          margin-right: 4px;
+                          text-transform: uppercase;
 
                             i {
                                 font-size: 15px;
