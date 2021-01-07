@@ -3305,5 +3305,10 @@ input[type=radio] {
     display: none;
   }
 }
+@media only screen and (max-width: 1100px) and (min-width: 901px) {
+  .construction-network-search input[type=search] {
+    max-width: 200px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
