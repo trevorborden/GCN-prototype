@@ -584,7 +584,7 @@ box-shadow: none;
             }
 
             &:hover .business__logo {
-    box-shadow: 0px 0px 1px #D4D7E4;
+    box-shadow: 0px 1px 4px #D4D7E4;
     border: 1px solid #2066DF;
     cursor: pointer;
             }
@@ -595,9 +595,8 @@ box-shadow: none;
             height: 17.9rem;
             background-color: #fff;
             border-radius: 8px;
-                box-shadow: 0px 10px 25px #D4D7E4;
             margin-bottom: 1.6rem;
-            border: 1px solid #fff;
+            border: 1px solid rgba(0, 0, 0, .12);
             transition: 300ms;
         }
 

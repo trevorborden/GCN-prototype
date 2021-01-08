@@ -184,7 +184,7 @@
 
 .trade-option {
     background-color: #fff;
-    box-shadow: 0px 10px 25px #D4D7E4;
+    overflow: hidden;
     border-radius: 8px;
     height: 17.9rem;
     max-width: 17.9rem;
@@ -192,13 +192,14 @@
     position: relative;
     transition: 300ms;
     margin-bottom: 1.6rem;
-    border: 1px solid #fff;
+    border: 1px solid #eee;
     background-repeat: no-repeat;
 
     &:hover {
         cursor: pointer;
         box-shadow: none;
         border: 1px solid blue;
+          box-shadow: 0px 10px 25px #D4D7E4;
     }
 
 
@@ -214,7 +215,7 @@
         width: 100%;
         text-align: center;
         height: 5.2rem;
-        border-radius: 0px 0px 6px 6px;
+
     }
 }
 

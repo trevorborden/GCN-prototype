@@ -2576,7 +2576,7 @@ input[type=radio] {
   margin-right: 2.6rem;
 }
 .similar-businesses__business:hover .business__logo {
-  box-shadow: 0px 0px 1px #D4D7E4;
+  box-shadow: 0px 1px 4px #D4D7E4;
   border: 1px solid #2066DF;
   cursor: pointer;
 }
@@ -2585,9 +2585,8 @@ input[type=radio] {
   height: 17.9rem;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0px 10px 25px #D4D7E4;
   margin-bottom: 1.6rem;
-  border: 1px solid #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
   transition: 300ms;
 }
 .similar-businesses .business__name {
@@ -2803,7 +2802,7 @@ input[type=radio] {
 
 .trade-option {
   background-color: #fff;
-  box-shadow: 0px 10px 25px #D4D7E4;
+  overflow: hidden;
   border-radius: 8px;
   height: 17.9rem;
   max-width: 17.9rem;
@@ -2811,13 +2810,14 @@ input[type=radio] {
   position: relative;
   transition: 300ms;
   margin-bottom: 1.6rem;
-  border: 1px solid #fff;
+  border: 1px solid #eee;
   background-repeat: no-repeat;
 }
 .trade-option:hover {
   cursor: pointer;
   box-shadow: none;
   border: 1px solid blue;
+  box-shadow: 0px 10px 25px #D4D7E4;
 }
 .trade-option .trade-name {
   font-weight: bold;
@@ -2830,7 +2830,6 @@ input[type=radio] {
   width: 100%;
   text-align: center;
   height: 5.2rem;
-  border-radius: 0px 0px 6px 6px;
 }
 
 .concrete {
