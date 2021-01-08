@@ -227,6 +227,7 @@ top: -90px;
         margin-bottom: 1.6rem;
         width: 100%;
 
+
         ul {
             font-weight: 600;
             font-size: 14px;
@@ -247,6 +248,16 @@ top: -90px;
                 border-right: 1px solid #000;
             }
         }
+
+
+    }
+
+
+    .service-area-map {
+      width: 900px;
+      height: 350px;
+      background-color: #eee;
+      filter: blur(3px);
     }
 
     .certifications {
@@ -464,6 +475,7 @@ box-shadow: none;
         position: relative;
         margin-top: 24px;
         margin-bottom: 72px;
+        width: 100%;
 
         .image-1 {
             width: 50%;
@@ -533,6 +545,44 @@ box-shadow: none;
         }
     }
 
+.profile-images--not-claimed {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  .image-1 {
+      width: 50%;
+      height: 100%;
+      background: #e3e6e8;
+      border-radius: 0px;
+      background-position: center;
+
+
+  }
+
+  .image-group {
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+
+  }
+
+  .image-2 {
+      background: #e3e6e8;
+  }
+
+  .image-3 {
+
+      background: #e3e6e8;
+  }
+
+  .image-4 {
+
+      background: #e3e6e8;
+  }
+
+  .image-5 {
+    background: #e3e6e8;
+  }
+}
 
 
 
@@ -663,4 +713,8 @@ box-shadow: none;
 
         }
 
+    }
+
+    .company-page .margin-bottom--big {
+      margin-bottom: 7.6rem;
     }

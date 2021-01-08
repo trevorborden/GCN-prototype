@@ -238,6 +238,10 @@ body {
   margin-right: 4px;
 }
 
+.margin-bottom--big {
+  margin-bottom: 7.6rem;
+}
+
 input {
   padding: 9px 12px;
   background-color: #ffffff;
@@ -1439,7 +1443,7 @@ card card-bg {
 
 .revealing-logo {
   left: 5rem;
-  top: 35px;
+  top: 40px;
   position: absolute;
 }
 
@@ -1844,7 +1848,6 @@ input[type=radio] {
   max-width: 1440px;
   display: flex;
   margin: 0 auto;
-  padding: 0px 24px;
   opacity: 0%;
   animation-delay: 0ms;
   animation: FadeIn 1000ms;
@@ -2317,6 +2320,12 @@ input[type=radio] {
 .company-page .service-area ul li:not(:last-child) {
   border-right: 1px solid #000;
 }
+.company-page .service-area-map {
+  width: 900px;
+  height: 350px;
+  background-color: #eee;
+  filter: blur(3px);
+}
 .company-page .certifications {
   margin-bottom: 2.4rem;
   width: 100%;
@@ -2484,6 +2493,7 @@ input[type=radio] {
   position: relative;
   margin-top: 24px;
   margin-bottom: 72px;
+  width: 100%;
 }
 .company-page .profile-images .image-1 {
   width: 50%;
@@ -2538,6 +2548,34 @@ input[type=radio] {
   height: 100%;
   background-position: center;
   background-size: cover;
+}
+.company-page .profile-images--not-claimed {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.company-page .profile-images--not-claimed .image-1 {
+  width: 50%;
+  height: 100%;
+  background: #e3e6e8;
+  border-radius: 0px;
+  background-position: center;
+}
+.company-page .profile-images--not-claimed .image-group {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.company-page .profile-images--not-claimed .image-2 {
+  background: #e3e6e8;
+}
+.company-page .profile-images--not-claimed .image-3 {
+  background: #e3e6e8;
+}
+.company-page .profile-images--not-claimed .image-4 {
+  background: #e3e6e8;
+}
+.company-page .profile-images--not-claimed .image-5 {
+  background: #e3e6e8;
 }
 .company-page .image-2 {
   background-image: url(../img/image-2.jpg);
@@ -2643,6 +2681,10 @@ input[type=radio] {
 }
 .label-for-project-checkbox:hover {
   cursor: pointer;
+}
+
+.company-page .margin-bottom--big {
+  margin-bottom: 7.6rem;
 }
 
 .landing-page-body {
