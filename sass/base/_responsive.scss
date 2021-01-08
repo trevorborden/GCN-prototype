@@ -134,8 +134,8 @@
         display: none;
     }
 
-    #srp-page, #business-profile {
-        .construction-network-search select {
+    .reveal, #srp-page, #business-profile {
+      .construction-network-search select {
             display: none;
         }
 
@@ -143,6 +143,9 @@
             display: none;
         }
 
+     #search-selector {
+       display: none;
+     }
 
         .construction-network-search input[type=search] {
             margin: 0px;

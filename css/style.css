@@ -3242,13 +3242,16 @@ input[type=radio] {
     display: none;
   }
 
-  #srp-page .construction-network-search select, #business-profile .construction-network-search select {
+  .reveal .construction-network-search select, #srp-page .construction-network-search select, #business-profile .construction-network-search select {
     display: none;
   }
-  #srp-page .zip, #business-profile .zip {
+  .reveal .zip, #srp-page .zip, #business-profile .zip {
     display: none;
   }
-  #srp-page .construction-network-search input[type=search], #business-profile .construction-network-search input[type=search] {
+  .reveal #search-selector, #srp-page #search-selector, #business-profile #search-selector {
+    display: none;
+  }
+  .reveal .construction-network-search input[type=search], #srp-page .construction-network-search input[type=search], #business-profile .construction-network-search input[type=search] {
     margin: 0px;
     padding: 4px 12px 4px 40px;
   }
