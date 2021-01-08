@@ -81,6 +81,7 @@
 
     .business-srp-page_results_cards_listing {
         min-width: 44rem;
+            max-width: none;
     }
 
     .trade-option {
@@ -242,5 +243,32 @@
 .construction-network-search input[type=search] {
   max-width: 200px;
 }
+
+}
+
+
+@media only screen and (min-width: 1200px)  {
+
+  .business-srp-page_results_cards_listing {
+
+  }
+
+  .business-srp-page_results {
+    width: 70%;
+  }
+
+  .business-srp-page_maps-and-links {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1330px)  {
+
+  .business-srp-page_results_cards_listing {
+
+    min-width: 40rem;
+    width: 48%;
+  }
+
 
 }

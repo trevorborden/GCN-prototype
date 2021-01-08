@@ -81,6 +81,38 @@
 
   </div>
 
+  <div class="construction-network-search reveal">
+    <a href="index.html"> <img class="site-header_logo_img revealing-logo  center--horizontal" src="img/procorelogo.svg" alt=""></a>
+
+    <form>
+      <!--
+                <select id="search-selector" name="search-selector">
+                    <option value="Companies">Companies</option>
+                    <option value="Projects">Projects</option>
+                </select>
+-->
+      <input type="search" placeholder="Search by trade or business  ">
+      <select id="search-selector" name="search-selector">
+        <option value="Commercial">Commercial</option>
+        <option value="Infrastructure">Healthcare</option>
+        <option value="Infrastructure">Government</option>
+        <option value="Infrastructure">Residential - Single Family</option>
+        <option value="Infrastructure">Residential - Multi Family</option>
+        <option value="Infrastructure">Infrastructure</option>
+        <option value="Industrial">Industrial & Energy</option>
+      </select>
+      <input class="zip" type="text" name="" value="93103">
+    </form>
+
+    <button class="tertiary  revealing-button loading-bois">
+      <spinner><svg class="spinner" viewBox="0 0 48 48">
+          <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+        </svg></spinner><label> List Your Business</label>
+    </button>
+
+
+  </div>
+
 
 
   <section class="search-hero">
@@ -651,6 +683,19 @@
         $('.Single').text(Math.ceil(this.Counter));
       }
     });
+
+
+    $(function(){
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 500) {
+            $('.reveal').css('visibility','visible');
+            $('.reveal').slideDown('fast');
+        }
+        else {
+            $('.reveal').slideUp('fast');
+        }
+    });
+});
   </script>
 
 </body>

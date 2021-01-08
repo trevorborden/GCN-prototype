@@ -28,7 +28,7 @@ html {
 body {
   box-sizing: border-box;
   position: absolute;
-  background:#F9FAFA;
+   background:#F9FAFA;
   min-height: 200vh;
   width: 100vw;
   @include respond(tab-port) {

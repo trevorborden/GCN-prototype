@@ -1451,6 +1451,8 @@ card card-bg {
 
 .reveal {
   visibility: hidden;
+  display: none;
+  z-index: 1000000;
 }
 
 .tool-header {
@@ -1480,6 +1482,16 @@ card card-bg {
 }
 .tool-header_actions {
   margin-top: 3.8rem;
+}
+
+.construction-network-search select {
+  box-shadow: 0px 1px 4px #D4D7E4;
+  height: 4.8rem;
+  border-radius: 6px;
+}
+.construction-network-search input {
+  border-radius: 6px;
+  box-shadow: 0px 1px 4px #D4D7E4;
 }
 
 .page-content {
@@ -1788,8 +1800,6 @@ input[type=radio] {
   padding: 9px 12px;
   background-color: #ffffff;
   border: none;
-  box-shadow: 0 0 0 1px #75838a;
-  border-radius: 2px;
   color: #2f3437;
   display: block;
   font-size: 14px;
@@ -1831,7 +1841,7 @@ input[type=radio] {
 
 .business-srp-page {
   width: 95%;
-  max-width: 1200px;
+  max-width: 1440px;
   display: flex;
   margin: 0 auto;
   padding: 0px 24px;
@@ -1850,7 +1860,7 @@ input[type=radio] {
   font-size: 2.4rem;
 }
 .business-srp-page_results {
-  width: 70%;
+  width: 60%;
   min-height: 100vh;
   margin-bottom: 56px;
 }
@@ -1886,13 +1896,17 @@ input[type=radio] {
   margin-bottom: 24px;
   width: 100%;
 }
+.business-srp-page_results_cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 7.6rem;
+}
 .business-srp-page_results_cards_listing {
   background: #FFFFFF;
-  box-shadow: 0px 10px 25px #D4D7E4;
   border-radius: 8px;
   display: flex;
   transition: 300ms;
-  border: 1px solid #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   opacity: 0%;
   animation: tileAppear 1000ms cubic-bezier(0, 0, 0, 1.47);
   animation-fill-mode: forwards;
@@ -1900,7 +1914,7 @@ input[type=radio] {
   color: #171A1C;
   margin-bottom: 1.6rem;
   text-align: left;
-  min-width: 49rem;
+  min-width: 43rem;
   width: 100%;
 }
 .business-srp-page_results_cards_listing:not(:last-child) {
@@ -1984,24 +1998,22 @@ input[type=radio] {
   margin-right: 4px;
 }
 .business-srp-page_maps-and-links {
-  width: 30%;
-  height: 130vh;
-  padding: 8px;
+  width: 40%;
+  height: calc(100vh - 125px);
   padding-top: 40px;
   position: sticky;
-  top: 60px;
+  top: 66px;
 }
 .business-srp-page_maps-and-links_map {
-  border-radius: 4px;
+  border-radius: 8px;
   overflow: hidden;
-  height: 400px;
-  margin-bottom: 16px;
   box-shadow: 0px 1px 2px #D4D7E4;
-  padding: 8px;
+  padding: 4px 4px 0px 4px;
   background: #fff;
-  animation-delay: 0ms;
-  animation: moveInRight 800ms;
-  animation-fill-mode: forwards;
+}
+.business-srp-page_maps-and-links_map .SRP-iframe-map {
+  height: calc(100vh - 125px);
+  border-radius: 4px;
 }
 .business-srp-page_maps-and-links_link {
   background: #fff;
@@ -2647,6 +2659,7 @@ input[type=radio] {
   background-image: url(../img/background.png);
   background-position: center;
   background-size: cover;
+  padding: 44px 0px;
 }
 .search-hero h1 {
   color: #fff;
@@ -2666,6 +2679,7 @@ input[type=radio] {
 .search-hero .construction-network-search {
   background: none;
   box-shadow: none;
+  position: relative;
 }
 .search-hero .construction-network-search button,
 .search-hero .construction-network-search select {
@@ -2796,7 +2810,7 @@ input[type=radio] {
   position: relative;
   transition: 300ms;
   margin-bottom: 1.6rem;
-  border: 1px solid #eee;
+  border: 1px solid #fff;
   background-repeat: no-repeat;
 }
 .trade-option:hover {
@@ -2809,6 +2823,7 @@ input[type=radio] {
   font-size: 1.6rem;
   line-height: 5.2rem;
   background: #FFFFFF;
+  box-shadow: 0px -3px 4px rgba(0, 0, 0, 0.25);
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -3187,6 +3202,7 @@ input[type=radio] {
 
   .business-srp-page_results_cards_listing {
     min-width: 44rem;
+    max-width: none;
   }
 
   .trade-option {
@@ -3306,6 +3322,21 @@ input[type=radio] {
 @media only screen and (max-width: 1100px) and (min-width: 901px) {
   .construction-network-search input[type=search] {
     max-width: 200px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .business-srp-page_results {
+    width: 70%;
+  }
+
+  .business-srp-page_maps-and-links {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 1330px) {
+  .business-srp-page_results_cards_listing {
+    min-width: 40rem;
+    width: 48%;
   }
 }
 

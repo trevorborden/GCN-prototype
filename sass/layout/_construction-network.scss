@@ -45,8 +45,8 @@
         padding: 9px 12px;
         background-color: #ffffff;
         border: none;
-        box-shadow: 0 0 0 1px #75838a;
-        border-radius: 2px;
+
+
         color: #2f3437;
         display: block;
         font-size: 14px;
@@ -103,7 +103,7 @@
 
 .business-srp-page {
     width: 95%;
-    max-width: 1200px;
+    max-width: 1440px;
     display: flex;
     margin: 0 auto;
     padding: 0px 24px;
@@ -125,7 +125,7 @@ font-size: 2.4rem;
 
 
     &_results {
-        width: 70%;
+        width: 60%;
         min-height: 100vh;
         margin-bottom: 56px;
 
@@ -172,14 +172,18 @@ font-size: 2.4rem;
         }
 
         &_cards {
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 7.6rem;
+
 
             &_listing {
                 background: #FFFFFF;
-                box-shadow: 0px 10px 25px #D4D7E4;
+
                 border-radius: 8px;
                 display: flex;
                 transition: 300ms;
-                border: 1px solid #fff;
+                border: 1px solid rgba(0, 0, 0, .10);
                 opacity: 0%;
                 animation: tileAppear 1000ms cubic-bezier(0, 0, 0, 1.47);
                 animation-fill-mode: forwards;
@@ -187,7 +191,8 @@ font-size: 2.4rem;
                 color: #171A1C;
                 margin-bottom: 1.6rem;
                 text-align: left;
-                min-width: 49rem;
+                min-width: 43rem;
+
                 width: 100%;
 
                 &:not(:last-child) {
@@ -272,6 +277,7 @@ font-size: 2.4rem;
 
                         &_token {
                           background-color: #E3E6E8;
+
                           padding: 2px 8px;
                           border-radius: 4px;
                           font-weight: bold;
@@ -299,27 +305,26 @@ font-size: 2.4rem;
         }
     }
 
-
-
     &_maps-and-links {
-        width: 30%;
-        height: 130vh;
-        padding: 8px;
+        width: 40%;
+        height: calc(100vh - 125px);
         padding-top: 40px;
         position: sticky;
-        top: 60px;
+        top: 66px;
 
         &_map {
-            border-radius: 4px;
+            border-radius: 8px;
             overflow: hidden;
-            height: 400px;
-            margin-bottom: 16px;
             box-shadow: 0px 1px 2px #D4D7E4;
-            padding: 8px;
+            padding: 4px 4px 0px 4px;
             background: #fff;
-            animation-delay: 0ms;
-            animation: moveInRight 800ms;
-            animation-fill-mode: forwards;
+
+         .SRP-iframe-map {
+           height: calc(100vh - 125px);
+           border-radius: 4px;
+         }
+
+
         }
 
         &_link {
@@ -373,6 +378,7 @@ font-size: 2.4rem;
 .srp-filters {
     border-bottom: 1px solid #E3E6E8;
     padding-bottom: 8px;
+
     select {
         outline: none;
         background-color: #E3E6E8;
