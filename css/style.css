@@ -2651,7 +2651,7 @@ input[type=radio] {
 }
 
 .search-hero {
-  height: 70vh;
+  height: 55vh;
   background: #232729;
   display: flex;
   flex-direction: column;
