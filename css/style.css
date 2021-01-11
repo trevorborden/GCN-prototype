@@ -2440,6 +2440,12 @@ input[type=radio] {
   font-size: 18px;
   line-height: 32px;
 }
+.company-page .call-to-action h3 {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: none;
+  vertical-align: middle;
+}
 .company-page .call-to-action .claim-promt {
   font-size: 16px;
   font-weight: bold;

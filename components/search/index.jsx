@@ -1,26 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="INVITED/icon-font.INVITED"> -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+import React from "react"
 
 
-  <title>Construction Network </title>
-</head>
+export const Search=()=> {
 
-<body class="landing-page-body">
-
-
-  <!-- Container holding the top bars so that they can be positioned together and fixed to the top -->
-
-  <!-- Site Header-->
-
-
+return(
+  <div>
   <div class="site-header">
     <div class="site-header_logo">
       <img class="site-header_logo_img center--horizontal" src="img/procorelogo.svg" alt="">
@@ -632,43 +616,6 @@
       </div>
     </div>
 
-  </section>
-
-
-
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-  <script>
-    $({
-      Counter: 600
-    }).animate({
-      Counter: $('.Single').text()
-    }, {
-      duration: 20000,
-      easing: 'linear',
-      step: function() {
-        $('.Single').text(Math.ceil(this.Counter));
-      }
-    });
-
-
-    $(function(){
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 500) {
-            $('.reveal').css('visibility','visible');
-            $('.reveal').slideDown('fast');
-        }
-        else {
-            $('.reveal').slideUp('fast');
-        }
-    });
-});
-  </script>
-
-</body>
-
-
-
-</html>
+  </section> </div>
+)
+}

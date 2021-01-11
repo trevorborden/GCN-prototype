@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import {Search} from './components/search'
+
 class App extends Component {
 
   constructor(props) {
@@ -33,7 +35,10 @@ class App extends Component {
 export default App;
 
 const BusinessCard = ({ title, service, marketSegment, serviceArea, imageURL, certificates, tag }) => (
-    
+<Search/> 
+
+
+
     <div className="business-card" >
     <div className="{tag}"> </div>
      <div className="logo-holder">
@@ -44,12 +49,10 @@ const BusinessCard = ({ title, service, marketSegment, serviceArea, imageURL, ce
       <p className="business-market-segment"><span class="material-icons">location_city</span>{marketSegment}</p>
      <p className="business-service-area"><span class="material-icons">location_on</span>{serviceArea}</p>
       <div className="business-certificates"><p className="certificates">{certificates}</p></div>
-      
+
     </div>
   </div>
 )
 
 const domContainer = document.querySelector('#react-list');
 ReactDOM.render(e(BusinessCard), domContainer);
-
-
