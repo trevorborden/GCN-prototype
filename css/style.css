@@ -241,6 +241,7 @@ body {
 .tooltip {
   position: relative;
   display: inline-block;
+  width: 100%;
 }
 
 .tooltip .tooltiptext {
@@ -2196,7 +2197,6 @@ input[type=radio] {
 
 .company-page {
   max-width: 1200px;
-  padding: 0px 2.4rem;
   margin: 0 auto;
   opacity: 0%;
   animation: FadeIn 1000ms;
@@ -2494,6 +2494,10 @@ input[type=radio] {
   font-size: 14px;
   text-transform: none;
   vertical-align: middle;
+}
+.company-page .call-to-action .tooltip .tooltiptext {
+  bottom: 109%;
+  left: 30%;
 }
 .company-page .call-to-action .claim-promt {
   font-size: 16px;

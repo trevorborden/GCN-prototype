@@ -53,7 +53,6 @@ top: -90px;
 
 .company-page {
     max-width: 1200px;
-    padding: 0px 2.4rem;
     margin: 0 auto;
     opacity: 0%;
     animation: FadeIn 1000ms;
@@ -438,6 +437,11 @@ top: -90px;
        text-transform: none;
        vertical-align: middle;
 
+         }
+
+         .tooltip .tooltiptext {
+           bottom: 109%;
+           left: 30%;
          }
 
          .claim-promt {
