@@ -120,13 +120,13 @@ top: -90px;
               margin-right: 8px;
             }
 
-            &:hover{
-
-              cursor: pointer;
-               .business-profile-card--data--content {
-                color: #ff5100;
-              }
-            }
+            // &:hover{
+            //
+            //   cursor: pointer;
+            //    .business-profile-card--data--content {
+            //     color: #ff5100;
+            //   }
+            // }
 
             &--header {
                 font-size: 14px;
@@ -160,6 +160,26 @@ top: -90px;
             }
 
         }
+    }
+
+    #contact {
+      .business-profile-card {
+
+
+
+
+          &--data {
+          &:hover{
+
+                cursor: pointer;
+                 .business-profile-card--data--content {
+                  color: #ff5100;
+                }
+              }
+
+
+          }
+      }
     }
 
     .card-title {

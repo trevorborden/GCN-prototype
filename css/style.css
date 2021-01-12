@@ -2252,12 +2252,6 @@ input[type=radio] {
   top: 6px;
   margin-right: 8px;
 }
-.company-page .business-profile-card--data:hover {
-  cursor: pointer;
-}
-.company-page .business-profile-card--data:hover .business-profile-card--data--content {
-  color: #ff5100;
-}
 .company-page .business-profile-card--data--header {
   font-size: 14px;
   font-weight: 600;
@@ -2285,6 +2279,12 @@ input[type=radio] {
   display: inline-block;
   font-size: 12px;
   padding: 2px 8px;
+}
+.company-page #contact .business-profile-card--data:hover {
+  cursor: pointer;
+}
+.company-page #contact .business-profile-card--data:hover .business-profile-card--data--content {
+  color: #ff5100;
 }
 .company-page .card-title {
   margin-bottom: 2.4rem;
