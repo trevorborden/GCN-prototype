@@ -188,7 +188,9 @@
     .second-sticky-card {
       display: none;
     }
-
+    .company-page  {
+      padding: 0px 2.4rem;
+    }
     .company-page .call-to-action .divider {
       display: none;
     }
@@ -196,10 +198,10 @@
     .company-page .call-to-action .company-name {
       display: none;
     }
+
     .company-page .call-to-action button {
-      margin-right: 0px;
-      width: 48%;
-      margin: 0px;
+      width: 98%;
+      margin: 0px 12px 0px 0px
     }
 
     .company-page .call-to-action .claim-promt {
