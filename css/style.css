@@ -238,6 +238,44 @@ body {
   margin-right: 4px;
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  min-width: 120px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 95%;
+  left: 0%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #000 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
 input {
   padding: 9px 12px;
   background-color: #ffffff;
@@ -2208,6 +2246,17 @@ input[type=radio] {
 }
 .company-page .business-profile-card--data {
   width: 100%;
+}
+.company-page .business-profile-card--data .material-icons-outlined {
+  position: relative;
+  top: 6px;
+  margin-right: 8px;
+}
+.company-page .business-profile-card--data:hover {
+  cursor: pointer;
+}
+.company-page .business-profile-card--data:hover .business-profile-card--data--content {
+  color: #ff5100;
 }
 .company-page .business-profile-card--data--header {
   font-size: 14px;

@@ -115,6 +115,21 @@ top: -90px;
         &--data {
             width: 100%;
 
+            .material-icons-outlined {
+              position: relative;
+              top: 6px;
+              margin-right: 8px;
+            }
+
+            &:hover{
+
+              cursor: pointer;
+
+              .business-profile-card--data--content {
+                color: #ff5100;
+              }
+            }
+
             &--header {
                 font-size: 14px;
                 font-weight: 600;
