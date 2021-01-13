@@ -1476,6 +1476,17 @@ card card-bg {
   color: #fff;
 }
 
+.site-header_logo_small {
+  height: 40px;
+  width: 40px;
+  background-image: url(../img/small-logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+  margin-right: 16px;
+}
+
 .revealing-logo {
   left: 5rem;
   top: 40px;
@@ -1823,7 +1834,7 @@ input[type=radio] {
 .construction-network-search .zip {
   width: 12rem;
   background: #fff url(../img/location_on-24px.svg) no-repeat 9px center;
-  padding: 12px 12px 12px 4rem;
+  padding: 12px 12px 12px 40px;
   margin-right: 0.8rem;
 }
 .construction-network-search input[type=text] {
@@ -1831,7 +1842,7 @@ input[type=radio] {
   margin-right: 8px;
 }
 .construction-network-search select {
-  width: 140px;
+  width: 183px;
   margin-right: 8px;
   padding: 12px 12px 12px 12px;
   color: #999;
@@ -1846,6 +1857,7 @@ input[type=radio] {
   background: #fff url(../img/expand_more-24px.svg) no-repeat;
   -webkit-appearance: none;
   background-position: center right 8px;
+  height: 56px;
 }
 .construction-network-search select:hover {
   cursor: pointer;
@@ -2781,7 +2793,7 @@ input[type=radio] {
 .search-hero .construction-network-search button,
 .search-hero .construction-network-search select {
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.12);
-  height: 4.8rem;
+  height: 48px;
   border-radius: 6px;
 }
 .search-hero .construction-network-search input {
@@ -2844,14 +2856,13 @@ input[type=radio] {
   min-width: 17.9rem;
   text-align: center;
   padding: 1.6rem 1.6rem;
-  background: #232729;
-  box-shadow: 0 0 16px -4px black;
-  border: 1px solid #2f3437;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   transition: 300ms;
 }
 .company-type-option:hover {
+  box-shadow: 0px 2px 5px #D4D7E4;
+  border: 1px solid #2066DF;
   cursor: pointer;
-  box-shadow: 0 0 2px -4px black;
 }
 .company-type-option:not(:last-child) {
   margin-right: 2.4rem;
@@ -2927,6 +2938,11 @@ input[type=radio] {
   width: 100%;
   text-align: center;
   height: 5.2rem;
+}
+
+.company-types {
+  flex-wrap: nowrap;
+  overflow: scroll;
 }
 
 .concrete {
@@ -3242,13 +3258,14 @@ input[type=radio] {
     justify-content: space-between;
     max-width: 65rem;
     margin: 0 auto;
+    width: 100%;
   }
 
   input[type=search] {
     margin-bottom: 8px;
   }
 
-  .construction-network-search input[type=search] {
+  .search-hero input[type=search] {
     max-width: 100%;
     height: 32px;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15) !important;
@@ -3261,19 +3278,20 @@ input[type=radio] {
   .search-hero .construction-network-search button,
 .search-hero .construction-network-search select {
     margin-right: 0px;
-    width: 49%;
+    width: 100%;
     height: 56px;
+    margin-bottom: 8px;
   }
 
   .construction-network-search input[type=text] {
-    width: 49%;
+    width: 100%;
+    height: 56px;
   }
 
   .search-hero .construction-network-search button,
 .search-hero .construction-network-search a {
     width: 100%;
     margin-top: 8px;
-    height: 56px;
   }
 
   .business-srp-page_results_cards_listing:not(:last-child) {
@@ -3292,7 +3310,7 @@ input[type=radio] {
     flex-wrap: wrap;
   }
 
-  .company-type .flex-start {
+  .company-types {
     flex-wrap: nowrap;
     overflow: scroll;
   }
@@ -3355,6 +3373,11 @@ input[type=radio] {
 
   .construction-network-search {
     padding: 8px 2.4rem;
+    display: flex;
+  }
+
+  .site-header_logo_small {
+    display: inline-block;
   }
 
   .company-page .sticky-side {

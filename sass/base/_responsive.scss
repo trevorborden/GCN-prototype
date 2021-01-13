@@ -19,16 +19,16 @@
         justify-content: space-between;
         max-width: 65rem;
         margin: 0 auto;
+        width: 100%;
     }
 
     input[type="search"] {
         margin-bottom: 8px;
     }
 
-    .construction-network-search input[type=search] {
+    .search-hero input[type=search] {
         max-width: 100%;
         height: 32px;
-
         box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15) !important;
     }
 
@@ -40,12 +40,14 @@
     .search-hero .construction-network-search button,
     .search-hero .construction-network-search select {
         margin-right: 0px;
-        width: 49%;
+        width: 100%;
         height: 56px;
+        margin-bottom: 8px;
     }
 
     .construction-network-search input[type=text] {
-        width: 49%;
+        width: 100%;
+        height: 56px;
     }
 
     .search-hero .construction-network-search button,
@@ -53,7 +55,7 @@
         {
         width: 100%;
         margin-top: 8px;
-        height: 56px;
+
     }
 
     .business-srp-page_results_cards_listing:not(:last-child) {
@@ -72,11 +74,10 @@
         flex-wrap: wrap;
     }
 
-    .company-type {
-        .flex-start {
+    .company-types {
             flex-wrap: nowrap;
             overflow: scroll;
-        }
+
     }
 
     .business-srp-page_results_cards_listing {
@@ -158,10 +159,15 @@
 
     .construction-network-search {
         padding: 8px 2.4rem;
+        display: flex;
 
     }
 
+    .site-header_logo_small {
 
+        display: inline-block;
+
+}
 
 
 
