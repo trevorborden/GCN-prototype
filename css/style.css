@@ -157,6 +157,13 @@ body {
   flex-wrap: wrap;
 }
 
+.white-container {
+  width: 100%;
+  background: #fff;
+  padding-top: 56px;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
 .logo_turner {
   background-image: url(../img/turner.png);
   background-position: center;
@@ -1857,7 +1864,7 @@ input[type=radio] {
   background: #fff url(../img/expand_more-24px.svg) no-repeat;
   -webkit-appearance: none;
   background-position: center right 8px;
-  height: 56px;
+  height: 48px;
 }
 .construction-network-search select:hover {
   cursor: pointer;
@@ -1891,8 +1898,8 @@ input[type=radio] {
 }
 
 .business-srp-page {
-  width: 95%;
-  max-width: 1440px;
+  width: 100%;
+  padding-left: 2.5%;
   display: flex;
   margin: 0 auto;
   opacity: 0%;
@@ -1900,27 +1907,27 @@ input[type=radio] {
   animation: FadeIn 1000ms;
   animation-fill-mode: forwards;
   margin-top: 40px;
-  flex-wrap: wrap;
   justify-content: flex-start;
-  padding-bottom: 80px;
 }
 .business-srp-page h1 {
-  margin-bottom: 2.4rem;
-  font-weight: 500;
-  font-size: 2.4rem;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 16px;
 }
 .business-srp-page_results {
   width: 60%;
   min-height: 100vh;
-  margin-bottom: 56px;
 }
 .business-srp-page_results .options {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 24px;
 }
 .business-srp-page_results .options__count {
-  font-size: 14px;
   font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
 }
 .business-srp-page_results .options__sort {
   font-size: 14px;
@@ -1949,7 +1956,6 @@ input[type=radio] {
 .business-srp-page_results_cards {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 7.6rem;
 }
 .business-srp-page_results_cards_listing {
   background: #FFFFFF;
@@ -2049,21 +2055,23 @@ input[type=radio] {
 }
 .business-srp-page_maps-and-links {
   width: 40%;
-  height: calc(100vh - 125px);
-  padding-top: 40px;
+  height: calc(100vh - 96px);
+  margin-top: -40px;
   position: sticky;
-  top: 66px;
+  top: 96px;
 }
 .business-srp-page_maps-and-links_map {
-  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0px 1px 2px #D4D7E4;
-  padding: 4px 4px 0px 4px;
-  background: #fff;
+  overflow: hidden;
+  box-shadow: inset 5px 0px 20px #00000024;
+  height: 100%;
+  position: relative;
 }
 .business-srp-page_maps-and-links_map .SRP-iframe-map {
-  height: calc(100vh - 125px);
-  border-radius: 4px;
+  height: calc(100vh - 96px);
+  position: relative;
+  z-index: -1;
 }
 .business-srp-page_maps-and-links_link {
   background: #fff;
@@ -2104,7 +2112,6 @@ input[type=radio] {
 }
 
 .srp-filters {
-  border-bottom: 1px solid #E3E6E8;
   padding-bottom: 8px;
 }
 .srp-filters select {
@@ -2112,10 +2119,10 @@ input[type=radio] {
   background-color: #E3E6E8;
   font-size: 14px;
   border: none;
-  line-height: 32px;
-  height: 32px;
+  line-height: 48px;
+  height: 48px;
   border-radius: 4px;
-  padding-left: 8px;
+  padding-left: 16px;
   font-weight: 600;
   color: #232729;
   margin-bottom: 8px;
@@ -3343,7 +3350,7 @@ input[type=radio] {
   }
 
   .business-srp-page {
-    padding: 0px;
+    padding: 2.5%;
   }
 
   .revealing-logo {

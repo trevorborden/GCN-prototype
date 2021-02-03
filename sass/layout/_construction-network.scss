@@ -101,8 +101,8 @@
 
 
 .business-srp-page {
-    width: 95%;
-    max-width: 1440px;
+    width: 100%;
+    padding-left: 2.5%;
     display: flex;
     margin: 0 auto;
     opacity: 0%;
@@ -110,14 +110,13 @@
     animation: FadeIn 1000ms;
     animation-fill-mode: forwards;
     margin-top: 40px;
-    flex-wrap: wrap;
     justify-content: flex-start;
-    padding-bottom: 80px;
 
     h1 {
-        margin-bottom: 2.4rem;
-        font-weight: 500;
-font-size: 2.4rem;
+      font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 16px;
     }
 
 
@@ -125,15 +124,16 @@ font-size: 2.4rem;
     &_results {
         width: 60%;
         min-height: 100vh;
-        margin-bottom: 56px;
 
         .options {
             display: flex;
             justify-content: space-between;
+            margin-bottom: 24px;
 
             &__count {
-                font-size: 14px;
-                font-weight: 600;
+              font-weight: 600;
+font-size: 20px;
+line-height: 28px;
             }
 
             &__sort {
@@ -172,7 +172,7 @@ font-size: 2.4rem;
         &_cards {
           display: flex;
           flex-wrap: wrap;
-          margin-bottom: 7.6rem;
+
 
 
             &_listing {
@@ -305,21 +305,28 @@ font-size: 2.4rem;
 
     &_maps-and-links {
         width: 40%;
-        height: calc(100vh - 125px);
-        padding-top: 40px;
+        height: calc(100vh - 96px);
+        margin-top: -40px;
         position: sticky;
-        top: 66px;
+        top: 96px;
+        
 
         &_map {
-            border-radius: 8px;
+
             overflow: hidden;
             box-shadow: 0px 1px 2px #D4D7E4;
-            padding: 4px 4px 0px 4px;
-            background: #fff;
+            overflow: hidden;
+                box-shadow: inset 5px 0px 20px #00000024;
+                height: 100%;
+                position: relative;
+
 
          .SRP-iframe-map {
-           height: calc(100vh - 125px);
-           border-radius: 4px;
+           height: calc(100vh - 96px);
+           position: relative;
+           z-index: -1;
+
+
          }
 
 
@@ -374,7 +381,6 @@ font-size: 2.4rem;
 }
 
 .srp-filters {
-    border-bottom: 1px solid #E3E6E8;
     padding-bottom: 8px;
 
     select {
@@ -382,10 +388,10 @@ font-size: 2.4rem;
         background-color: #E3E6E8;
         font-size: 14px;
         border: none;
-        line-height: 32px;
-        height: 32px;
+        line-height: 48px;
+        height: 48px;
         border-radius: 4px;
-        padding-left: 8px;
+        padding-left: 16px;
         font-weight: 600;
         color: #232729;
         margin-bottom: 8px;

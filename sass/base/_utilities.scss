@@ -33,6 +33,13 @@
     flex-wrap: wrap;
 }
 
+.white-container {
+    width: 100%;
+    background: #fff;
+    padding-top: 56px;
+    border-top: 1px solid rgba(0,0,0, .12);
+}
+
 
 .logo_turner {
     background-image: url(../img/turner.png);
