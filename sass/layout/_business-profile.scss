@@ -71,6 +71,8 @@ top: -90px;
 
     .sticky-side{
       width: 29%;
+      position: sticky;
+    top: 92px;
     }
 
     .card-container {
@@ -439,9 +441,12 @@ top: -90px;
         border-radius: 8px;
         padding: 24px;
         height: fit-content;
-        position: sticky;
-        top: 100px;
+        
         margin-top: 24px;
+
+        button {
+          height: 40px;
+        }
 
          h2 {
            font-weight: bold;
@@ -468,6 +473,7 @@ top: -90px;
            font-weight: bold;
            color: rgba(0, 0, 0, .32);
            margin-bottom: 8px;
+
          }
 
          .divider {

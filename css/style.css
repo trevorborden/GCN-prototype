@@ -1542,13 +1542,45 @@ card card-bg {
 }
 
 .construction-network-search select {
-  box-shadow: 0px 1px 4px #D4D7E4;
+  box-shadow: none;
   height: 4.8rem;
-  border-radius: 6px;
 }
 .construction-network-search input {
-  border-radius: 6px;
-  box-shadow: 0px 1px 4px #D4D7E4;
+  box-shadow: none;
+}
+
+.search-location {
+  display: flex;
+  background: #E3E6E8;
+  border-radius: 40px;
+  padding: 4px;
+  max-width: 687px;
+  margin: 0 auto;
+}
+.search-location input[type=search] {
+  padding: 4px 12px 4px 40px;
+  max-width: 400px;
+  width: 100%;
+  border-right: 2px solid #D6DADC;
+}
+.search-location .search-trigger {
+  background-image: url(../img/search-white.svg);
+  background-color: #FD531F;
+  background-position: center;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  border-radius: 100px;
+  background-repeat: no-repeat;
+  transition: 100ms;
+}
+.search-location .search-trigger:hover {
+  background-image: url(../img/search-white.svg);
+  background-color: #CC4100;
+  cursor: pointer;
+}
+.search-location .search-trigger:active {
+  background-color: #993000;
 }
 
 .page-content {
@@ -1839,13 +1871,12 @@ input[type=radio] {
   min-width: 10rem;
 }
 .construction-network-search .zip {
-  width: 12rem;
-  background: #fff url(../img/location_on-24px.svg) no-repeat 9px center;
+  width: 20rem;
+  background: url(../img/location_on-24px.svg) no-repeat 9px center;
   padding: 12px 12px 12px 40px;
   margin-right: 0.8rem;
 }
 .construction-network-search input[type=text] {
-  width: 110px;
   margin-right: 8px;
 }
 .construction-network-search select {
@@ -1861,7 +1892,7 @@ input[type=radio] {
   display: block;
   font-size: 14px;
   line-height: 16px;
-  background: #fff url(../img/expand_more-24px.svg) no-repeat;
+  background: url(../img/expand_more-24px.svg) no-repeat;
   -webkit-appearance: none;
   background-position: center right 8px;
   height: 48px;
@@ -1884,10 +1915,10 @@ input[type=radio] {
   display: none;
 }
 .construction-network-search input[type=search] {
-  background: #fff url(../img/search-24px.svg) no-repeat 9px center;
+  background: url(../img/search-24px.svg) no-repeat 9px center;
   padding: 12px 12px 12px 40px;
   max-width: 400px;
-  width: 100%;
+  min-width: 367px;
 }
 .construction-network-search input:-moz-placeholder {
   color: #999;
@@ -1959,7 +1990,8 @@ input[type=radio] {
 }
 .business-srp-page_results_cards_listing {
   background: #FFFFFF;
-  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
   display: flex;
   transition: 300ms;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -2117,7 +2149,7 @@ input[type=radio] {
 .srp-filters select {
   outline: none;
   background-color: #E3E6E8;
-  font-size: 14px;
+  font-size: 16px;
   border: none;
   line-height: 48px;
   height: 48px;
@@ -2232,6 +2264,8 @@ input[type=radio] {
 }
 .company-page .sticky-side {
   width: 29%;
+  position: sticky;
+  top: 92px;
 }
 .company-page .card-container {
   display: flex;
@@ -2499,9 +2533,10 @@ input[type=radio] {
   border-radius: 8px;
   padding: 24px;
   height: fit-content;
-  position: sticky;
-  top: 100px;
   margin-top: 24px;
+}
+.company-page .call-to-action button {
+  height: 40px;
 }
 .company-page .call-to-action h2 {
   font-weight: bold;
@@ -2783,6 +2818,7 @@ input[type=radio] {
   font-size: 3.2rem;
   margin-bottom: 12px;
   padding: 0px 2.6rem;
+  margin-top: 24px;
 }
 .search-hero h2 {
   color: #fff;
@@ -2797,15 +2833,8 @@ input[type=radio] {
   box-shadow: none;
   position: relative;
 }
-.search-hero .construction-network-search button,
-.search-hero .construction-network-search select {
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.12);
-  height: 48px;
-  border-radius: 6px;
-}
-.search-hero .construction-network-search input {
-  border-radius: 6px;
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.12);
+.search-hero .search-location {
+  background: #fff;
 }
 
 .content {
@@ -3269,10 +3298,7 @@ input[type=radio] {
   }
 
   .search-hero input[type=search] {
-    max-width: 100%;
-    height: 32px;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15) !important;
-    margin-bottom: 8px;
+    border-right: none;
   }
 
   .search-hero .construction-network-search input {
@@ -3288,8 +3314,7 @@ input[type=radio] {
   }
 
   .construction-network-search input[type=text] {
-    width: 100%;
-    height: 56px;
+    display: none;
   }
 
   .search-hero .construction-network-search button,

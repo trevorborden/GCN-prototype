@@ -137,13 +137,53 @@ margin-top: 38px;
 .construction-network-search {
 
     select {
-        box-shadow: 0px 1px 4px #D4D7E4;
+        box-shadow: none;
         height: 4.8rem;
-        border-radius: 6px;
     }
 
     input {
-        border-radius: 6px;
-        box-shadow: 0px 1px 4px #D4D7E4;
+
+        box-shadow: none;
+
     }
+}
+
+.search-location {
+  display: flex;
+  background: #E3E6E8;
+  border-radius: 40px;
+  padding: 4px;
+  max-width: 687px;
+  margin: 0 auto;
+
+input[type=search] {
+    padding: 4px 12px 4px 40px;
+    max-width: 400px;
+    width: 100%;
+    border-right: 2px solid #D6DADC;
+}
+
+.search-trigger {
+  background-image: url(../img/search-white.svg);
+  background-color: #FD531F;
+  background-position: center;
+  width: 44px;
+  height: 44px;
+  min-width: 44px ;
+  border-radius: 100px;
+  background-repeat: no-repeat;
+  transition: 100ms;
+
+  &:hover {
+    background-image: url(../img/search-white.svg);
+    background-color: #CC4100;
+    cursor: pointer;
+  }
+
+  &:active {
+
+    background-color: #993000;
+
+  }
+}
 }
