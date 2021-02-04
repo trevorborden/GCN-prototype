@@ -1440,12 +1440,12 @@ card card-bg {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 .site-header_logo {
-  margin-left: 5rem;
+  margin-left: 2.5%;
   width: 15rem;
   margin-right: 2.4rem;
 }
 .site-header_logo_img {
-  width: 15rem;
+  width: 150px;
 }
 .site-header .header-buttons {
   margin: 0px 0px 0px auto;
@@ -1484,7 +1484,7 @@ card card-bg {
 }
 
 .site-header_logo_small {
-  height: 40px;
+  height: 52px;
   width: 40px;
   background-image: url(../img/small-logo.png);
   background-position: center;
@@ -1495,14 +1495,14 @@ card card-bg {
 }
 
 .revealing-logo {
-  left: 5rem;
+  left: 2.5%;
   top: 40px;
   position: absolute;
 }
 
 .revealing-button {
-  right: 5rem;
-  top: 23px;
+  right: 2.5%;
+  top: 32px;
   position: absolute;
 }
 
@@ -1562,6 +1562,7 @@ card card-bg {
   max-width: 400px;
   width: 100%;
   border-right: 2px solid #D6DADC;
+  caret-color: #ff5100;
 }
 .search-location .search-trigger {
   background-image: url(../img/search-white.svg);
@@ -1572,15 +1573,16 @@ card card-bg {
   min-width: 44px;
   border-radius: 100px;
   background-repeat: no-repeat;
-  transition: 100ms;
+  transition: 300ms;
+  border: 2px solid #FD531F;
 }
 .search-location .search-trigger:hover {
-  background-image: url(../img/search-white.svg);
-  background-color: #CC4100;
+  background-image: url(../img/search-orange.svg);
+  background-color: #fff;
   cursor: pointer;
 }
 .search-location .search-trigger:active {
-  background-color: #993000;
+  transform: scale(1.1);
 }
 
 .page-content {
@@ -2888,8 +2890,8 @@ input[type=radio] {
 .company-type-option {
   box-sizing: border-box;
   border-radius: 4px;
-  max-height: 17.9rem;
-  min-width: 17.9rem;
+  max-height: 20rem;
+  min-width: 20rem;
   text-align: center;
   padding: 1.6rem 1.6rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -2956,6 +2958,7 @@ input[type=radio] {
   margin-bottom: 1.6rem;
   border: 1px solid #eee;
   background-repeat: no-repeat;
+  display: block;
 }
 .trade-option:hover {
   cursor: pointer;
@@ -3396,7 +3399,7 @@ input[type=radio] {
     display: none;
   }
   .reveal .construction-network-search input[type=search], #srp-page .construction-network-search input[type=search], #business-profile .construction-network-search input[type=search] {
-    margin: 0px;
+    margin: 0px 8px 0px 0px;
     padding: 4px 12px 4px 40px;
   }
 
@@ -3422,6 +3425,9 @@ input[type=radio] {
     justify-content: space-between;
     border-radius: 0px !important;
     border-top: 1px solid rgba(0, 0, 0, 0.12);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 
   .second-sticky-card {
@@ -3472,6 +3478,11 @@ input[type=radio] {
 
   .company-page .profile-images .image-group {
     display: none;
+  }
+
+  .construction-network-search input[type=search] {
+    min-width: 284px;
+    margin-right: 4px;
   }
 }
 @media only screen and (max-width: 1100px) and (min-width: 901px) {

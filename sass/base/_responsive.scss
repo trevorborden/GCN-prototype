@@ -144,7 +144,7 @@
      }
 
         .construction-network-search input[type=search] {
-            margin: 0px;
+            margin: 0px 8px 0px 0px;
             padding: 4px 12px 4px 40px;
 
 
@@ -184,6 +184,9 @@
       justify-content: space-between;
       border-radius: 0px !important;
       border-top: 1px solid rgba(0, 0, 0, .12);
+      position: fixed;
+    bottom: 0;
+    width: 100%;
     }
 
     .second-sticky-card {
@@ -238,6 +241,12 @@
   .company-page .profile-images .image-group {
     display: none;
   }
+
+  .construction-network-search input[type=search] {
+
+    min-width: 284px;
+    margin-right: 4px;
+}
 }
 
 

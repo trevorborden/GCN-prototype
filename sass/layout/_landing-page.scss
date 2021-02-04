@@ -107,8 +107,8 @@
 .company-type-option {
     box-sizing: border-box;
     border-radius: 4px;
-    max-height: 17.9rem;
-    min-width: 17.9rem;
+    max-height: 20rem;
+    min-width: 20rem;
     text-align: center;
     padding: 1.6rem 1.6rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -185,6 +185,7 @@
     margin-bottom: 1.6rem;
     border: 1px solid #eee;
     background-repeat: no-repeat;
+    display: block;
 
     &:hover {
         cursor: pointer;
