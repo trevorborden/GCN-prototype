@@ -1,6 +1,12 @@
 @include respond(tab-port) {
 
+  .construction-network-search input[type=search] {
+      margin: 0px 8px 0px 0px;
+      padding: 4px 12px 4px 40px;
 
+
+
+  }
 
 
     .site-header_logo {
@@ -143,13 +149,7 @@
        display: none;
      }
 
-        .construction-network-search input[type=search] {
-            margin: 0px 8px 0px 0px;
-            padding: 4px 12px 4px 40px;
 
-
-
-        }
     }
 
     .construction-network-search {
@@ -225,6 +225,8 @@
 }
 
 }
+
+
 @include respond(phone) {
   .company-page .card-container .business-profile-card {
     width: 100%;
@@ -244,8 +246,10 @@
 
   .construction-network-search input[type=search] {
 
-    min-width: 284px;
+    min-width: 174px;
     margin-right: 4px;
+    background: none;
+padding: 12px 12px 12px 15px;
 }
 }
 

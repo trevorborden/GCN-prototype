@@ -3284,6 +3284,11 @@ input[type=radio] {
 }
 
 @media only screen and (max-width: 56.25em) {
+  .construction-network-search input[type=search] {
+    margin: 0px 8px 0px 0px;
+    padding: 4px 12px 4px 40px;
+  }
+
   .site-header_logo {
     margin-left: 1rem;
   }
@@ -3398,10 +3403,6 @@ input[type=radio] {
   .reveal #search-selector, #srp-page #search-selector, #business-profile #search-selector {
     display: none;
   }
-  .reveal .construction-network-search input[type=search], #srp-page .construction-network-search input[type=search], #business-profile .construction-network-search input[type=search] {
-    margin: 0px 8px 0px 0px;
-    padding: 4px 12px 4px 40px;
-  }
 
   .construction-network-search {
     padding: 8px 2.4rem;
@@ -3481,8 +3482,10 @@ input[type=radio] {
   }
 
   .construction-network-search input[type=search] {
-    min-width: 284px;
+    min-width: 174px;
     margin-right: 4px;
+    background: none;
+    padding: 12px 12px 12px 15px;
   }
 }
 @media only screen and (max-width: 1100px) and (min-width: 901px) {
