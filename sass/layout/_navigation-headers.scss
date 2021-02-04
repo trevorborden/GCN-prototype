@@ -160,7 +160,11 @@ margin-top: 38px;
 
   &:focus-within {
     background: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.14)
+  }
 
+  &:hover {
+    border: 1px solid #ACB5B9;
   }
 
 input[type=search] {
@@ -182,17 +186,17 @@ input[type=search] {
   border-radius: 100px;
   background-repeat: no-repeat;
   transition: 300ms;
-  border: 2px solid #FD531F;
+
 
   &:hover {
-    background-image: url(../img/search-orange.svg);
-    background-color: #fff;
+
+    background-color: #e64900;
     cursor: pointer;
   }
 
   &:active {
+    box-shadow: 0px 0px 0px 2px #FD531F;
 
-    transform: scale(1.1);
 
   }
 }

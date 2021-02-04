@@ -1561,6 +1561,10 @@ card card-bg {
 }
 .search-location:focus-within {
   background: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.14);
+}
+.search-location:hover {
+  border: 1px solid #ACB5B9;
 }
 .search-location input[type=search] {
   padding: 4px 12px 4px 40px;
@@ -1580,15 +1584,13 @@ card card-bg {
   border-radius: 100px;
   background-repeat: no-repeat;
   transition: 300ms;
-  border: 2px solid #FD531F;
 }
 .search-location .search-trigger:hover {
-  background-image: url(../img/search-orange.svg);
-  background-color: #fff;
+  background-color: #e64900;
   cursor: pointer;
 }
 .search-location .search-trigger:active {
-  transform: scale(1.1);
+  box-shadow: 0px 0px 0px 2px #FD531F;
 }
 
 .page-content {
