@@ -1556,6 +1556,11 @@ card card-bg {
   padding: 4px;
   max-width: 687px;
   margin: 0 auto;
+  transition: 300ms;
+  border: 1px solid #E3E6E8;
+}
+.search-location:focus-within {
+  background: #fff;
 }
 .search-location input[type=search] {
   padding: 4px 12px 4px 40px;

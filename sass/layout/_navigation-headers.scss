@@ -155,6 +155,13 @@ margin-top: 38px;
   padding: 4px;
   max-width: 687px;
   margin: 0 auto;
+  transition: 300ms;
+  border: 1px solid #E3E6E8;
+
+  &:focus-within {
+    background: #fff;
+
+  }
 
 input[type=search] {
     padding: 4px 12px 4px 40px;
