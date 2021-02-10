@@ -2213,8 +2213,8 @@ input[type=radio] {
 .hero {
   height: 16rem;
   width: 100vw;
-  margin-top: 0px;
-  opacity: 0%;
+  margin-top: 0;
+  opacity: 0;
   animation: FadeIn 1000ms;
   animation-fill-mode: forwards;
   z-index: 0;
@@ -2222,7 +2222,7 @@ input[type=radio] {
 }
 
 .unander-hero {
-  background-image: url(../img/portfolio.jpg);
+  background-image: url("../img/portfolio.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -2240,7 +2240,7 @@ input[type=radio] {
 }
 
 .jp-hero {
-  background-image: url(../img/portfolio.jpg);
+  background-image: url("../img/portfolio.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -2259,7 +2259,7 @@ input[type=radio] {
 .company-page {
   max-width: 1200px;
   margin: 0 auto;
-  opacity: 0%;
+  opacity: 0;
   animation: FadeIn 1000ms;
   animation-fill-mode: forwards;
   display: flex;
@@ -2267,7 +2267,7 @@ input[type=radio] {
   flex-wrap: wrap;
 }
 .company-page .landing-page-section {
-  margin: 0px;
+  margin: 0;
 }
 .company-page .main-section {
   width: 70%;
@@ -2295,17 +2295,20 @@ input[type=radio] {
 .company-page .business-profile-card {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: end;
   margin-right: 32px;
   background: #fff;
-  padding: 2.4rem 2.4rem 2.4rem 2.4rem;
+  padding: 2.4rem;
   background: #FFFFFF;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14);
   border-radius: 8px;
-  margin: 2.4rem 0px 0px 0px;
+  margin: 2.4rem 0 0;
 }
 .company-page .business-profile-card--half {
   width: 33%;
+}
+.company-page .business-profile-card .general-information {
+  width: 75%;
 }
 .company-page .business-profile-card--data {
   width: 100%;
@@ -2369,24 +2372,21 @@ input[type=radio] {
   background-repeat: no-repeat;
   border-radius: 4px;
   border: 1px solid #F4F5F6;
-  position: absolute;
-  top: -5.4rem;
 }
 .company-page .listing_logo_turner {
-  background-image: url(../img/turner.png);
+  background-image: url("../img/turner.png");
 }
 .company-page .listing_logo_AC {
-  background-image: url(../img/ACelectric.png);
+  background-image: url("../img/ACelectric.png");
 }
 .company-page .listing_logo_JP {
-  background-image: url(../img/jim-peterson.png);
+  background-image: url("../img/jim-peterson.png");
 }
 .company-page .listing_logo_unander {
-  background-image: url(../img/unander-logo.png);
+  background-image: url("../img/unander-logo.png");
 }
 .company-page .company-name {
   margin-bottom: 2.4rem;
-  margin-left: 15rem;
 }
 .company-page .services {
   margin-bottom: 1.6rem;
@@ -2417,13 +2417,17 @@ input[type=radio] {
   font-size: 14px;
   line-height: 2rem;
   color: #171A1C;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .company-page .service-area ul li {
   display: inline-block;
   padding-right: 6px;
   margin-right: 4px;
-  line-height: 14px;
-  font-weight: 500;
+  line-height: 16px;
+  font-weight: 600;
 }
 .company-page .service-area ul li:not(:last-child) {
   border-right: 1px solid #000;
@@ -2469,14 +2473,14 @@ input[type=radio] {
   height: 22rem;
   width: 22rem;
   background: #FFFFFF;
-  box-shadow: 0px 1px 4px rgba(40, 40, 40, 0.2), 0px 0px 3px rgba(0, 0, 0, 0.14), 0px 2px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 4px rgba(40, 40, 40, 0.2), 0 0 3px rgba(0, 0, 0, 0.14), 0 2px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   padding: 8px;
   border: 1px solid #ffffff;
   transition: 200ms;
 }
 .company-page .project-card:hover {
-  box-shadow: 0px 2px 5px #D4D7E4;
+  box-shadow: 0 2px 5px #D4D7E4;
   border: 1px solid #2066DF;
   cursor: pointer;
 }
@@ -2517,7 +2521,7 @@ input[type=radio] {
 }
 .company-page .business-profile-pages ul li {
   display: inline-block;
-  padding: 4px 0px;
+  padding: 4px 0;
   margin-right: 4px;
   line-height: 2rem;
   font-weight: 500;
@@ -2539,7 +2543,7 @@ input[type=radio] {
 }
 .company-page .call-to-action {
   background: #FFFFFF;
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
   border-radius: 8px;
   padding: 24px;
   height: fit-content;
@@ -2591,7 +2595,7 @@ input[type=radio] {
   position: inherit;
 }
 .company-page .call-to-action .company-name {
-  margin: 0px 0px 24px 0px;
+  margin: 0 0 24px;
   font-weight: bold;
   font-size: 2.8rem;
   line-height: 32px;
@@ -2618,8 +2622,8 @@ input[type=radio] {
   width: 50%;
   height: 100%;
   background: grey;
-  border-radius: 0px;
-  background-image: url(../img/image-1.jpg);
+  border-radius: 0;
+  background-image: url("../img/image-1.jpg");
   background-position: center;
 }
 .company-page .profile-images .image-group {
@@ -2632,51 +2636,51 @@ input[type=radio] {
   width: 50%;
 }
 .company-page .profile-images .profile-image:nth-child(1) {
-  padding: 0 8px 8px 8px;
+  padding: 0 8px 8px;
 }
 .company-page .profile-images .profile-image:nth-child(2) {
-  padding: 0 0px 8px 0px;
+  padding: 0 0 8px;
 }
 .company-page .profile-images .profile-image:nth-child(3) {
-  padding: 0 8px 0px 8px;
+  padding: 0 8px;
 }
 .company-page .profile-images .image-2 {
-  background-image: url(../img/image-2.jpg);
+  background-image: url("../img/image-2.jpg");
   width: 100%;
   height: 100%;
   background-position: center;
   background-size: cover;
 }
 .company-page .profile-images .image-3 {
-  background-image: url(../img/image-3.jpg);
+  background-image: url("../img/image-3.jpg");
   width: 100%;
   height: 100%;
   background-position: center;
   background-size: cover;
 }
 .company-page .profile-images .image-4 {
-  background-image: url(../img/image-4.jpg);
+  background-image: url("../img/image-4.jpg");
   width: 100%;
   height: 100%;
   background-position: center;
   background-size: cover;
 }
 .company-page .profile-images .image-5 {
-  background-image: url(../img/image-5.jpg);
+  background-image: url("../img/image-5.jpg");
   width: 100%;
   height: 100%;
   background-position: center;
   background-size: cover;
 }
 .company-page .profile-images--not-claimed {
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .company-page .profile-images--not-claimed .image-1 {
   width: 50%;
   height: 100%;
   background: #e3e6e8;
-  border-radius: 0px;
+  border-radius: 0;
   background-position: center;
 }
 .company-page .profile-images--not-claimed .image-group {
@@ -2697,22 +2701,22 @@ input[type=radio] {
   background: #e3e6e8;
 }
 .company-page .image-2 {
-  background-image: url(../img/image-2.jpg);
+  background-image: url("../img/image-2.jpg");
   background-position: center;
   background-size: cover;
 }
 .company-page .image-3 {
-  background-image: url(../img/image-3.jpg);
+  background-image: url("../img/image-3.jpg");
   background-position: center;
   background-size: cover;
 }
 .company-page .image-4 {
-  background-image: url(../img/image-4.jpg);
+  background-image: url("../img/image-4.jpg");
   background-position: center;
   background-size: cover;
 }
 .company-page .image-5 {
-  background-image: url(../img/image-5.jpg);
+  background-image: url("../img/image-5.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -2721,7 +2725,7 @@ input[type=radio] {
   bottom: 32px;
   right: 32px;
   margin: 0;
-  box-shadow: 0px 10px 25px #00000069;
+  box-shadow: 0 10px 25px #00000069;
 }
 
 .similar-businesses {
@@ -2733,7 +2737,7 @@ input[type=radio] {
   margin-right: 2.6rem;
 }
 .similar-businesses__business:hover .business__logo {
-  box-shadow: 0px 1px 4px #D4D7E4;
+  box-shadow: 0 1px 4px #D4D7E4;
   border: 1px solid #2066DF;
   cursor: pointer;
 }

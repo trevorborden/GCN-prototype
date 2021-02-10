@@ -210,7 +210,7 @@ return(
 
           <div class="listing_info_area-covered">
             <div class="listing_info_heading">
-              <span>Service Area:</span>
+              <span>Area of Coverage:</span>
             </div>
             <span>Santa Barbara, CA</span>
           </div>
@@ -251,7 +251,7 @@ return(
 
           <div class="listing_info_area-covered">
             <div class="listing_info_heading">
-              <span>Service Area:</span>
+              <span>Area of Coverage:</span>
             </div>
             <span>Austin, TX</span>
           </div>
@@ -295,7 +295,7 @@ return(
 
           <div class="listing_info_area-covered">
             <div class="listing_info_heading">
-              <span>Service Area:</span>
+              <span>Area of Coverage:</span>
             </div>
             <span>Santa Barbara, CA</span>
           </div>
@@ -325,7 +325,7 @@ return(
 
           <div class="listing_info_area-covered">
             <div class="listing_info_heading">
-              <span>Service Area:</span>
+              <span>Area of Coverage:</span>
             </div>
             <span>Santa Barbara, CA</span>
           </div>
@@ -442,7 +442,7 @@ return(
 
             <div class="listing_info_area-covered">
               <div class="listing_info_heading">
-                <span>Service Area:</span>
+                <span>Area of Coverage:</span>
               </div>
               <span>Santa Barbara, CA</span>
             </div>
@@ -484,7 +484,7 @@ return(
 
             <div class="listing_info_area-covered">
               <div class="listing_info_heading">
-                <span>Service Area:</span>
+                <span>Area of Coverage:</span>
               </div>
               <span>Santa Barbara, CA</span>
             </div>
@@ -519,7 +519,7 @@ return(
 
           <div class="listing_info_area-covered">
             <div class="listing_info_heading">
-              <span>Service Area:</span>
+              <span>Area of Coverage:</span>
             </div>
             <span>Santa Barbara, CA</span>
           </div>
@@ -562,7 +562,7 @@ return(
 
           <div class="listing_info_area-covered">
             <div class="listing_info_heading">
-              <span>Service Area:</span>
+              <span>Area of Coverage:</span>
             </div>
             <span>Santa Barbara, CA</span>
           </div>
