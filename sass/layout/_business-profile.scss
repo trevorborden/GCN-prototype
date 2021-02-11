@@ -688,3 +688,10 @@
     cursor: pointer;
   }
 }
+
+.map-holder {
+  height: 350px;
+  overflow: hidden;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, .12);
+}
