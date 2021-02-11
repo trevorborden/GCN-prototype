@@ -161,6 +161,7 @@
     line-height: 3.2rem;
     letter-spacing: 0.15px;
     width: 100%;
+
   }
 
   .general-information {
@@ -329,6 +330,7 @@
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
+      width: 20rem;
     }
 
     &--value {

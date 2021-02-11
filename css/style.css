@@ -2511,6 +2511,7 @@ input[type=radio] {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  width: 20rem;
 }
 .company-page .project-card--value {
   font-size: 14px;
