@@ -1,113 +1,109 @@
 .half {
-    width: 50%;
+  width: 50%;
 }
 
 .full {
-    width: 100%;
+  width: 100%;
 }
-
-
 // Core overrides
-
 .core-checkbox__input:checked + .core-checkbox__label:before {
-    border-radius: 2px;
+  border-radius: 2px;
 }
 
 .core-checkbox__label:before {
-    border-radius: 2px;
+  border-radius: 2px;
 }
 
 .flex-box {
-    display: flex;
+  display: flex;
 }
 
 .space-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .flex-start {
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .flex-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .white-container {
-    width: 100%;
-    background: #fff;
-    padding-top: 56px;
-    border-top: 1px solid rgba(0,0,0, .12);
+  width: 100%;
+  background: #fff;
+  padding-top: 56px;
+  border-top: 1px solid rgba(0,0,0, .12);
 }
 
-
 .logo_turner {
-    background-image: url(../img/turner.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url("../img/turner.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .logo_unander {
-    background-image: url(../img/unander-logo.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url("../img/unander-logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .logo_AC {
-    background-image: url(../img/ACelectric.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url("../img/ACelectric.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .logo_DE {
-    background-image: url(../img/DE.png);
-    background-color: #EEF0F1 !important;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url("../img/DE.png");
+  background-color: #EEF0F1 !important;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .logo_EE {
-    background-image: url(../img/EE.png);
-    background-color: #EEF0F1 !important;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url("../img/EE.png");
+  background-color: #EEF0F1 !important;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .logo_JP {
-    background-image: url(../img/jim-peterson.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #fff;
+  background-image: url("../img/jim-peterson.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fff;
 }
 
 .logo_todd {
-    background-image: url(../img/Todd.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #fff;
+  background-image: url("../img/Todd.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fff;
 }
 
 .logo_bw {
-    background-image: url(../img/BW.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #fff;
+  background-image: url("../img/BW.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fff;
 }
 
 .logo_jr {
-    background-image: url(../img/jr-electric.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #fff;
+  background-image: url("../img/jr-electric.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fff;
 }
 
 .claimed {
@@ -122,10 +118,7 @@
     margin-right: 4px;
   }
 }
-
-
 // Tooltips
-
 .tooltip {
   position: relative;
   display: inline-block;
@@ -143,7 +136,7 @@
   position: absolute;
   z-index: 1;
   bottom: 95%;
-  left: 0%;
+  left: 0;
   opacity: 0;
   transition: opacity 0.3s;
   font-size: 12px;
@@ -163,4 +156,8 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+.margin-bottom--big {
+ margin-bottom: 7.6rem !important;
 }

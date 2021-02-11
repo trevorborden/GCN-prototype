@@ -165,28 +165,28 @@ body {
 }
 
 .logo_turner {
-  background-image: url(../img/turner.png);
+  background-image: url("../img/turner.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .logo_unander {
-  background-image: url(../img/unander-logo.png);
+  background-image: url("../img/unander-logo.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .logo_AC {
-  background-image: url(../img/ACelectric.png);
+  background-image: url("../img/ACelectric.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .logo_DE {
-  background-image: url(../img/DE.png);
+  background-image: url("../img/DE.png");
   background-color: #EEF0F1 !important;
   background-position: center;
   background-size: contain;
@@ -194,7 +194,7 @@ body {
 }
 
 .logo_EE {
-  background-image: url(../img/EE.png);
+  background-image: url("../img/EE.png");
   background-color: #EEF0F1 !important;
   background-position: center;
   background-size: contain;
@@ -202,7 +202,7 @@ body {
 }
 
 .logo_JP {
-  background-image: url(../img/jim-peterson.png);
+  background-image: url("../img/jim-peterson.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -210,7 +210,7 @@ body {
 }
 
 .logo_todd {
-  background-image: url(../img/Todd.png);
+  background-image: url("../img/Todd.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -218,7 +218,7 @@ body {
 }
 
 .logo_bw {
-  background-image: url(../img/BW.png);
+  background-image: url("../img/BW.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -226,7 +226,7 @@ body {
 }
 
 .logo_jr {
-  background-image: url(../img/jr-electric.png);
+  background-image: url("../img/jr-electric.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -262,7 +262,7 @@ body {
   position: absolute;
   z-index: 1;
   bottom: 95%;
-  left: 0%;
+  left: 0;
   opacity: 0;
   transition: opacity 0.3s;
   font-size: 12px;
@@ -282,6 +282,10 @@ body {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+.margin-bottom--big {
+  margin-bottom: 7.6rem !important;
 }
 
 input {
@@ -2806,10 +2810,6 @@ input[type=radio] {
   cursor: pointer;
 }
 
-.company-page .margin-bottom--big {
-  margin-bottom: 7.6rem;
-}
-
 .landing-page-body {
   background: #fff;
 }
@@ -2942,31 +2942,32 @@ input[type=radio] {
 .company-type-option {
   box-sizing: border-box;
   border-radius: 4px;
-  max-height: 20rem;
   min-width: 20rem;
   text-align: center;
   padding: 1.6rem 1.6rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #fff;
   transition: 300ms;
 }
 .company-type-option:hover {
   box-shadow: 0px 2px 5px #D4D7E4;
   border: 1px solid #2066DF;
   cursor: pointer;
+  background: rgba(0, 0, 0, 0.02);
 }
 .company-type-option:not(:last-child) {
   margin-right: 2.4rem;
 }
 
 .company-type__image {
-  height: 10rem;
-  width: 10rem;
+  height: 14rem;
+  width: 14rem;
   margin: 0 auto;
+  margin-bottom: 12px;
 }
 
 .company-type__title {
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 2.1rem;
 }
 
@@ -3104,6 +3105,32 @@ input[type=radio] {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.list-your-business {
+  background-image: url(../img/list-your-business.png);
+  background-color: #272727;
+  height: 400px;
+  width: 100vw;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding: 4rem;
+}
+.list-your-business h2 {
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+.list-your-business p {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.list-your-business button {
+  height: 4.8rem;
 }
 
 .iodine-body {
