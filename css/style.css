@@ -3519,6 +3519,7 @@ input[type=radio] {
     left: 0px;
     bottom: 0px;
     z-index: 100000;
+    top: 95vh;
   }
 
   .call-to-action {
