@@ -3543,6 +3543,13 @@ input[type=radio] {
     background: none;
     padding: 12px 12px 12px 15px;
   }
+
+  .search-hero .construction-network-search input[type=search] {
+    min-width: 256px;
+    margin-right: 4px;
+    background: none;
+    padding: 12px 12px 12px 15px;
+  }
 }
 @media only screen and (max-width: 1100px) and (min-width: 901px) {
   .construction-network-search input[type=search] {
