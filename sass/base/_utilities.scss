@@ -161,3 +161,33 @@
 .margin-bottom--big {
  margin-bottom: 7.6rem !important;
 }
+
+
+// Pills
+
+
+.pill {
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.pill--green {
+  background: #26AD1F;
+  color: #fff;
+}
+
+.pill--grey {
+  background: #F3F4F6;
+  color: #171A1C;
+}
+
+.pill--blue {
+  background: #1D5CC9;
+  color: #fff;
+
+}

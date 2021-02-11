@@ -288,6 +288,31 @@ body {
   margin-bottom: 7.6rem !important;
 }
 
+.pill {
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.pill--green {
+  background: #26AD1F;
+  color: #fff;
+}
+
+.pill--grey {
+  background: #F3F4F6;
+  color: #171A1C;
+}
+
+.pill--blue {
+  background: #1D5CC9;
+  color: #fff;
+}
+
 input {
   padding: 9px 12px;
   background-color: #ffffff;
@@ -2316,6 +2341,7 @@ input[type=radio] {
 }
 .company-page .business-profile-card--data {
   width: 100%;
+  margin-bottom: 2.4rem;
 }
 .company-page .business-profile-card--data .material-icons-outlined {
   position: relative;
@@ -2330,25 +2356,6 @@ input[type=radio] {
 .company-page .business-profile-card--data--content {
   font-size: 14px;
   font-weight: 400;
-  margin-bottom: 2.4rem;
-}
-.company-page .business-profile-card--data .pill {
-  background: #1D5CC9;
-  text-transform: uppercase;
-  color: #fff;
-  border-radius: 15px;
-  display: inline-block;
-  font-size: 12px;
-  padding: 2px 8px;
-}
-.company-page .business-profile-card--data .pill--green {
-  background: #26AD1F;
-  text-transform: uppercase;
-  color: #fff;
-  border-radius: 15px;
-  display: inline-block;
-  font-size: 12px;
-  padding: 2px 8px;
 }
 .company-page #contact .business-profile-card--data:hover {
   cursor: pointer;
@@ -2413,7 +2420,7 @@ input[type=radio] {
   border-right: 1px solid #000;
 }
 .company-page .service-area {
-  margin-bottom: 1.6rem;
+  margin-bottom: 0.8rem;
   width: 100%;
 }
 .company-page .service-area ul {
@@ -2544,6 +2551,7 @@ input[type=radio] {
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 1.6rem;
+  margin-top: 1.6rem;
 }
 .company-page .call-to-action {
   background: #FFFFFF;

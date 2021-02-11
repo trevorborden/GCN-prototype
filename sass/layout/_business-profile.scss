@@ -109,6 +109,7 @@
 
     &--data {
       width: 100%;
+      margin-bottom: 2.4rem;
 
       .material-icons-outlined {
         position: relative;
@@ -131,28 +132,11 @@
       &--content {
         font-size: 14px;
         font-weight: 400;
-        margin-bottom: 2.4rem;
+
       }
 
-      .pill {
-        background: #1D5CC9;
-        text-transform: uppercase;
-        color: #fff;
-        border-radius: 15px;
-        display: inline-block;
-        font-size: 12px;
-        padding: 2px 8px;
-      }
 
-      .pill--green {
-        background: #26AD1F;
-        text-transform: uppercase;
-        color: #fff;
-        border-radius: 15px;
-        display: inline-block;
-        font-size: 12px;
-        padding: 2px 8px;
-      }
+
     }
   }
 
@@ -239,7 +223,7 @@
   }
 
   .service-area {
-    margin-bottom: 1.6rem;
+    margin-bottom: 0.8rem;
     width: 100%;
 
     ul {
@@ -393,6 +377,7 @@
     font-size: 14px;
     line-height: 1.5;
     margin-bottom: 1.6rem;
+    margin-top: 1.6rem;
   }
 
   .call-to-action {
