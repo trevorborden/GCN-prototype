@@ -215,14 +215,14 @@ return(
             <span>Santa Barbara, CA</span>
           </div>
 
-          <div class="listing_info_certifications">
+          <div class="listing_info_Classifications">
             <div class="listing_info_heading">
-              <span>Certifications:</span>
+              <span>Classifications:</span>
             </div>
-            <div class="listing_info_certifications_token">
+            <div class="listing_info_Classifications_token">
               <i class="material-icons-round">local_police</i><span>SBE</span>
             </div>
-            <div class="listing_info_certifications_token">
+            <div class="listing_info_Classifications_token">
               <i class="material-icons-round">local_police</i><span>Union Member </span>
             </div>
 
@@ -256,17 +256,17 @@ return(
             <span>Austin, TX</span>
           </div>
 
-          <div class="listing_info_certifications">
+          <div class="listing_info_Classifications">
             <div class="listing_info_heading">
-              <span>Certifications:</span>
+              <span>Classifications:</span>
             </div>
-            <div class="listing_info_certifications_token">
+            <div class="listing_info_Classifications_token">
               <i class="material-icons-round">local_police</i><span>SBE</span>
             </div>
-            <div class="listing_info_certifications_token">
+            <div class="listing_info_Classifications_token">
               <i class="material-icons-round">local_police</i><span>WBE</span>
             </div>
-            <div class="listing_info_certifications_token">
+            <div class="listing_info_Classifications_token">
               <i class="material-icons-round">local_police</i><span>Union Member </span>
             </div>
 
@@ -447,14 +447,14 @@ return(
               <span>Santa Barbara, CA</span>
             </div>
 
-            <div class="listing_info_certifications">
+            <div class="listing_info_Classifications">
               <div class="listing_info_heading">
-                <span>Certifications:</span>
+                <span>Classifications:</span>
               </div>
-              <div class="listing_info_certifications_token">
+              <div class="listing_info_Classifications_token">
                 <i class="material-icons-round">local_police</i><span>SBE</span>
               </div>
-              <div class="listing_info_certifications_token">
+              <div class="listing_info_Classifications_token">
                 <i class="material-icons-round">local_police</i><span>Union Member </span>
               </div>
 
@@ -524,14 +524,14 @@ return(
             <span>Santa Barbara, CA</span>
           </div>
 
-          <div class="listing_info_certifications">
+          <div class="listing_info_Classifications">
             <div class="listing_info_heading">
-              <span>Certifications:</span>
+              <span>Classifications:</span>
             </div>
-            <div class="listing_info_certifications_token">
+            <div class="listing_info_Classifications_token">
               <i class="material-icons-round">local_police</i><span>SBE</span>
             </div>
-            <div class="listing_info_certifications_token">
+            <div class="listing_info_Classifications_token">
               <i class="material-icons-round">local_police</i><span>Union Member </span>
             </div>
 

@@ -1,11 +1,11 @@
 @include respond(tab-port) {
 
+.network-categories {
+  display: none;
+}
   .construction-network-search input[type=search] {
       margin: 0px 8px 0px 0px;
       padding: 4px 12px 4px 40px;
-
-
-
   }
 
 

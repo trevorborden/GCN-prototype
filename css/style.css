@@ -1927,7 +1927,7 @@ input[type=radio] {
 .construction-network-search input[type=search] {
   background: url(../img/search-24px.svg) no-repeat 9px center;
   padding: 12px 12px 12px 40px;
-  max-width: 400px;
+  max-width: 490px;
   min-width: 367px;
 }
 .construction-network-search input:-moz-placeholder {
@@ -2072,11 +2072,11 @@ input[type=radio] {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-.business-srp-page_results_cards_listing .listing_info_certifications {
+.business-srp-page_results_cards_listing .listing_info_Classifications {
   display: flex;
   flex-wrap: wrap;
 }
-.business-srp-page_results_cards_listing .listing_info_certifications_token {
+.business-srp-page_results_cards_listing .listing_info_Classifications_token {
   background-color: #E3E6E8;
   padding: 2px 8px;
   border-radius: 4px;
@@ -2091,7 +2091,7 @@ input[type=radio] {
   margin-right: 4px;
   text-transform: uppercase;
 }
-.business-srp-page_results_cards_listing .listing_info_certifications_token i {
+.business-srp-page_results_cards_listing .listing_info_Classifications_token i {
   font-size: 15px;
   margin-right: 4px;
 }
@@ -2438,17 +2438,17 @@ input[type=radio] {
   background-color: #eee;
   filter: blur(3px);
 }
-.company-page .certifications {
+.company-page .Classifications {
   margin-bottom: 2.4rem;
   width: 100%;
 }
-.company-page .certifications ul {
+.company-page .Classifications ul {
   font-weight: 600;
   font-size: 14px;
   line-height: 2rem;
   color: #5E696E;
 }
-.company-page .certifications ul li {
+.company-page .Classifications ul li {
   display: inline-block;
   padding: 4px 8px;
   margin-right: 4px;
@@ -2814,8 +2814,37 @@ input[type=radio] {
   background: #fff;
 }
 
+.network-categories {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+  margin: 0 auto;
+  margin-top: -80px;
+}
+.network-categories li {
+  display: inline-block;
+  margin: 12px;
+}
+.network-categories .selected {
+  position: relative;
+}
+.network-categories .selected::after {
+  content: " ";
+  position: absolute;
+  bottom: 0px;
+  margin-left: 10px;
+  height: 2px !important;
+  left: 50% !important;
+  margin-left: -25px !important;
+  width: 50px !important;
+  background: #fff;
+  border-radius: 6px;
+}
+
 .search-hero {
-  min-height: 55vh;
+  min-height: 65vh;
   background: #232729;
   display: flex;
   flex-direction: column;
@@ -2838,9 +2867,11 @@ input[type=radio] {
   color: #fff;
   text-align: center;
   text-shadow: 0px 10px 25px rgba(0, 0, 0, 0.12);
-  font-size: 2.1rem;
+  font-size: 2rem;
   opacity: 0.5;
+  margin: 0 auto;
   margin-bottom: 2.4rem;
+  max-width: 700px;
 }
 .search-hero .construction-network-search {
   background: none;
@@ -2849,6 +2880,8 @@ input[type=radio] {
 }
 .search-hero .search-location {
   background: #fff;
+  margin-bottom: 76px;
+  max-width: 800px;
 }
 
 .content {
@@ -3296,6 +3329,10 @@ input[type=radio] {
 }
 
 @media only screen and (max-width: 56.25em) {
+  .network-categories {
+    display: none;
+  }
+
   .construction-network-search input[type=search] {
     margin: 0px 8px 0px 0px;
     padding: 4px 12px 4px 40px;
