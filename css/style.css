@@ -2887,7 +2887,7 @@ input[type=radio] {
 }
 .search-hero .search-location {
   background: #fff;
-  margin-bottom: 76px;
+  margin-bottom: 7rem;
   max-width: 800px;
 }
 
@@ -3545,7 +3545,7 @@ input[type=radio] {
   }
 
   .search-hero .construction-network-search input[type=search] {
-    min-width: 256px;
+    min-width: 70vw;
     margin-right: 4px;
     background: none;
     padding: 12px 12px 12px 15px;
