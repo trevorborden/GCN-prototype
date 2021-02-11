@@ -2877,6 +2877,7 @@ input[type=radio] {
   margin-bottom: 12px;
   padding: 0px 2.6rem;
   margin-top: 24px;
+  position: relative;
 }
 .search-hero h2 {
   color: #fff;
