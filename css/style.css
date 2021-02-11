@@ -2845,14 +2845,15 @@ input[type=radio] {
 
 .search-hero {
   min-height: 65vh;
-  background: #232729;
+  background: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(../img/background.png);
   background-position: center;
   background-size: cover;
   padding: 6.4rem 0px;
+  overflow: hidden;
+  position: relative;
 }
 .search-hero h1 {
   color: #fff;
