@@ -304,7 +304,7 @@ line-height: 28px;
 
     &_maps-and-links {
         width: 40%;
-        height: calc(100vh - 96px);
+        height: calc(100vh - 95px);
         margin-top: -40px;
         position: sticky;
         top: 96px;
@@ -318,12 +318,15 @@ line-height: 28px;
                 box-shadow: inset 5px 0px 20px #00000024;
                 height: 100%;
                 position: relative;
+                z-index: 2;
+
 
 
          .SRP-iframe-map {
-           height: calc(100vh - 96px);
+           height: calc(100vh - 44px);
            position: relative;
-           z-index: -1;
+           z-index: 1;
+           transform: translateY(-52px);
 
 
          }

@@ -678,7 +678,7 @@
 .label-for-project-checkbox {
   font-size: 12px;
   font-weight: 500;
-  line-height: 2.4rem;
+  line-height: 4.4rem;
   letter-spacing: 0.4px;
   text-transform: uppercase;
   background: #EEF0F1;
@@ -696,4 +696,8 @@
   overflow: hidden;
   border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, .12);
+  width: 100%;
+  iframe {
+    width: 100%;
+  }
 }

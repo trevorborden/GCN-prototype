@@ -2126,7 +2126,7 @@ input[type=radio] {
 }
 .business-srp-page_maps-and-links {
   width: 40%;
-  height: calc(100vh - 96px);
+  height: calc(100vh - 95px);
   margin-top: -40px;
   position: sticky;
   top: 96px;
@@ -2138,11 +2138,13 @@ input[type=radio] {
   box-shadow: inset 5px 0px 20px #00000024;
   height: 100%;
   position: relative;
+  z-index: 2;
 }
 .business-srp-page_maps-and-links_map .SRP-iframe-map {
-  height: calc(100vh - 96px);
+  height: calc(100vh - 44px);
   position: relative;
-  z-index: -1;
+  z-index: 1;
+  transform: translateY(-52px);
 }
 .business-srp-page_maps-and-links_link {
   background: #fff;
@@ -2807,7 +2809,7 @@ input[type=radio] {
 .label-for-project-checkbox {
   font-size: 12px;
   font-weight: 500;
-  line-height: 2.4rem;
+  line-height: 4.4rem;
   letter-spacing: 0.4px;
   text-transform: uppercase;
   background: #EEF0F1;
@@ -2824,6 +2826,10 @@ input[type=radio] {
   overflow: hidden;
   border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, 0.12);
+  width: 100%;
+}
+.map-holder iframe {
+  width: 100%;
 }
 
 .landing-page-body {
