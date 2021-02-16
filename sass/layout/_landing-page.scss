@@ -340,13 +340,13 @@ margin:0 auto;
 .list-your-business {
   background-image: url(../img/list-your-business.png);
   background-color: #272727;
-  height: 400px;
+
   width: 100vw;
-  background-size: contain;
+  background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
   text-align: left;
-  padding: 4rem;
+  padding: 6rem 4rem;
 
   h2 {
     color: #fff;
