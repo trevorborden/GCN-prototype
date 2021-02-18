@@ -160,7 +160,8 @@ body {
 .white-container {
   width: 100%;
   background: #fff;
-  padding-top: 56px;
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
   border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -1455,6 +1456,48 @@ card card-bg {
 
 .dark div {
   color: white;
+}
+
+.carousel {
+  width: 95%;
+}
+.carousel h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: left;
+}
+.carousel .similar-businesses {
+  margin-bottom: 0px;
+}
+
+.carousel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.carousel-header .carousel-right {
+  display: flex;
+  align-items: center;
+}
+.carousel-header button {
+  height: 48px;
+}
+.carousel-header .carousel-controller {
+  display: flex;
+}
+.carousel-header .carousel-controller__button .material-icons-round {
+  line-height: 48px;
+}
+
+.seo-links li {
+  list-style: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  letter-spacing: 0.25px;
+  color: #3397FF;
+  line-height: 32px;
 }
 
 .site-header {
@@ -2950,7 +2993,7 @@ input[type=radio] {
 .landing-page-section .similar-businesses {
   margin: 0 auto;
   justify-content: space-between;
-  overflow: visible;
+  overflow: scroll;
 }
 
 .company-type {
@@ -3619,6 +3662,26 @@ input[type=radio] {
   .business-srp-page_results_cards_listing {
     min-width: 40rem;
     width: 48%;
+  }
+
+  .country-body .business-srp-page_results {
+    width: 60%;
+  }
+  .country-body .business-srp-page_maps-and-links {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .business-srp-page_results_cards_listing {
+    min-width: 40rem;
+    width: 48%;
+  }
+
+  .country-body .business-srp-page_results {
+    width: 42%;
+  }
+  .country-body .business-srp-page_maps-and-links {
+    width: 58%;
   }
 }
 @media only screen and (max-width: 1200px) {

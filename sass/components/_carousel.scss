@@ -1,0 +1,41 @@
+.carousel {
+  width: 95%;
+
+  h2 {
+    font-size: 2.2rem;
+
+  font-weight: 600;
+  text-align: left;
+    }
+
+    .similar-businesses {
+      margin-bottom: 0px;
+    }
+}
+
+.carousel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  .carousel-right {
+    display: flex;
+    align-items: center;
+  }
+
+  button {
+    height: 48px;
+  }
+
+  .carousel-controller {
+    display: flex;
+
+    &__button {
+      .material-icons-round {
+        line-height: 48px;
+      }
+    }
+  }
+
+
+}
