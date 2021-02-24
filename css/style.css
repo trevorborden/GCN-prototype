@@ -2521,12 +2521,11 @@ input[type=radio] {
 }
 .company-page .project-cards {
   display: flex;
-  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
   padding: 8px;
   overflow: scroll;
 }
 .company-page .project-card {
-  height: 22rem;
   width: 22rem;
   background: #FFFFFF;
   box-shadow: 0 1px 4px rgba(40, 40, 40, 0.2), 0 0 3px rgba(0, 0, 0, 0.14), 0 2px 3px rgba(0, 0, 0, 0.12);
@@ -2865,7 +2864,7 @@ input[type=radio] {
 }
 
 .map-holder {
-  height: 350px;
+  height: 300px;
   overflow: hidden;
   border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, 0.12);
