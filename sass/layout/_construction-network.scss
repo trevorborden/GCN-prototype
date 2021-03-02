@@ -205,7 +205,7 @@ line-height: 28px;
                 }
 
                 .listing_logo {
-                    width: 10rem;
+                    min-width: 10rem;
                     height: 10rem;
                     margin-right: 1.6rem;
                     background-color: #fff;
@@ -254,6 +254,7 @@ line-height: 28px;
                         font-weight: 600;
                         font-size: 14px;
                         line-height: 20px;
+                        margin-bottom: 0.8rem;
                     }
 
                     &_market-sector {
@@ -393,6 +394,7 @@ line-height: 28px;
         line-height: 48px;
         height: 48px;
         border-radius: 4px;
+        border: 1px solid #ACB5B9;
         padding-left: 16px;
         font-weight: 600;
         color: #232729;
@@ -400,9 +402,15 @@ line-height: 28px;
        width: 160px;
         white-space: nowrap;
         text-overflow: ellipsis;
-        background: #EEF0F1 url(../img/expand_more-24px.svg) no-repeat;
+        background: #fff url(../img/expand_more-24px.svg) no-repeat;
     -webkit-appearance: none;
-    background-position: center right 8px;
+    background-position: center right 12px;
+    transition: 300ms;
+
+    &:hover {
+      border: 1px solid #464F53;
+      cursor: pointer;
+    }
 
 
         &:not(:last-child) {

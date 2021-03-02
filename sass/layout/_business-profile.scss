@@ -169,7 +169,7 @@
   }
 
   .listing_logo {
-    width: 13rem;
+    min-width: 13rem;
     height: 13rem;
     margin-right: 1.6rem;
     background-size: contain;
@@ -439,7 +439,7 @@
 
     .listing_logo {
       height: 6rem;
-      width: 6rem;
+      min-width: 6rem;
       position: inherit;
     }
 

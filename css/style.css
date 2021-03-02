@@ -237,13 +237,14 @@ body {
 .claimed {
   display: flex;
   align-items: center;
-  font-weight: 800;
-  font-size: 11px;
+  font-weight: 700;
+  font-size: 10px;
   margin-left: auto;
 }
 .claimed .material-icons-round {
   color: #FF5100;
   margin-right: 4px;
+  font-size: 20px;
 }
 
 .tooltip {
@@ -2096,7 +2097,7 @@ input[type=radio] {
   cursor: pointer;
 }
 .business-srp-page_results_cards_listing .listing_logo {
-  width: 10rem;
+  min-width: 10rem;
   height: 10rem;
   margin-right: 1.6rem;
   background-color: #fff;
@@ -2133,6 +2134,7 @@ input[type=radio] {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
+  margin-bottom: 0.8rem;
 }
 .business-srp-page_results_cards_listing .listing_info_market-sector {
   font-size: 14px;
@@ -2238,6 +2240,7 @@ input[type=radio] {
   line-height: 48px;
   height: 48px;
   border-radius: 4px;
+  border: 1px solid #ACB5B9;
   padding-left: 16px;
   font-weight: 600;
   color: #232729;
@@ -2245,9 +2248,14 @@ input[type=radio] {
   width: 160px;
   white-space: nowrap;
   text-overflow: ellipsis;
-  background: #EEF0F1 url(../img/expand_more-24px.svg) no-repeat;
+  background: #fff url(../img/expand_more-24px.svg) no-repeat;
   -webkit-appearance: none;
-  background-position: center right 8px;
+  background-position: center right 12px;
+  transition: 300ms;
+}
+.srp-filters select:hover {
+  border: 1px solid #464F53;
+  cursor: pointer;
 }
 .srp-filters select:not(:last-child) {
   margin-right: 0.8rem;
@@ -2420,7 +2428,7 @@ input[type=radio] {
   position: relative;
 }
 .company-page .listing_logo {
-  width: 13rem;
+  min-width: 13rem;
   height: 13rem;
   margin-right: 1.6rem;
   background-size: contain;
@@ -2648,7 +2656,7 @@ input[type=radio] {
 }
 .company-page .call-to-action .listing_logo {
   height: 6rem;
-  width: 6rem;
+  min-width: 6rem;
   position: inherit;
 }
 .company-page .call-to-action .company-name {
@@ -3610,6 +3618,11 @@ input[type=radio] {
 
   .hide-on-mobile {
     display: none;
+  }
+}
+@media only screen and (max-width: 56.25em) and (max-width: 75em) {
+  .list-your-business {
+    background-image: url(../img/footer-mobile.png);
   }
 }
 @media only screen and (max-width: 37.5em) {

@@ -225,6 +225,13 @@
     display: none;
 }
 
+
+@include respond(tab-land) {
+.list-your-business {
+  background-image: url(../img/footer-mobile.png);
+}
+}
+
 }
 
 
