@@ -64,6 +64,26 @@ button.secondary {
   border: 1px solid #d9d9d9;
   border-radius: 2px;
   color: grey;
+
+}
+
+button.back-button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  padding: 4px 8px 4px 4px;
+  position: absolute;
+  top: 32px;
+  left: 24px;
+  box-shadow: none;
+  transition: 300ms;
+
+ &:hover {
+   border: 1px solid #fff;
+   background: rgba(0,0,0,.22);
+ }
+
 }
 
 a {

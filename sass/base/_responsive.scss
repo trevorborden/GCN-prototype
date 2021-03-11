@@ -1,5 +1,9 @@
 @include respond(tab-port) {
 
+  button.back-button {
+    top: 16px;
+  }
+
 .network-categories {
   display: none;
 }
@@ -169,6 +173,10 @@
 
 
     // business profile pages
+
+
+
+
 
       .company-page .sticky-side {
       width: 100%;
