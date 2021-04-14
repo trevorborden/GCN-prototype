@@ -2446,8 +2446,8 @@ input[type=radio] {
   position: relative;
 }
 .company-page .listing_logo {
-  min-width: 13rem;
-  height: 13rem;
+  min-width: 10rem;
+  height: 10rem;
   margin-right: 1.6rem;
   background-size: contain;
   background-position: center;

@@ -198,7 +198,7 @@ return(
           <div class="listing_info_name">
             <span>AC Electric</span>
           </div>
-          <div class=claimed> <span class="material-icons-round">check_circle </span> VERIFIED</div>
+          <div class=claimed> <span class="material-icons-round">check_circle </span> ENGAGED</div>
           <div class="listing_info_work-performed">
             <span>Project Planning,
               Detailed Estimating,
@@ -284,7 +284,7 @@ return(
           <div class="listing_info_name">
             <span>Jim Peterson Construction</span>
           </div>
-          <div class=claimed> <span class="material-icons-round">check_circle </span> VERIFIED</div>
+          <div class=claimed> <span class="material-icons-round">check_circle </span> ENGAGED</div>
           <div class="listing_info_work-performed">
             <span>General Contracting,
               Finish Carpentry,</span>
@@ -430,7 +430,7 @@ return(
             <div class="listing_info_name">
               <span>AC Electric</span>
             </div>
-            <div class=claimed> <span class="material-icons-round">check_circle </span> VERIFIED</div>
+            <div class=claimed> <span class="material-icons-round">check_circle </span> ENGAGED</div>
             <div class="listing_info_work-performed">
               <span>Project Planning,
                 Detailed Estimating,
@@ -473,7 +473,7 @@ return(
             <div class="listing_info_name">
               <span>JR Electric</span>
             </div>
-            <div class=claimed> <span class="material-icons-round">check_circle </span> VERIFIED</div>
+            <div class=claimed> <span class="material-icons-round">check_circle </span> ENGAGED</div>
             <div class="listing_info_work-performed">
               <span>Electrical
               </span>
