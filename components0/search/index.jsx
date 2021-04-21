@@ -33,7 +33,7 @@ return(
                     <option value="Projects">Projects</option>
                 </select>
 -->
-      <input type="search" placeholder="Search by trade or business  ">
+      <input type="search" placeholder="Search by serviceor business  ">
       <select id="search-selector" name="search-selector">
         <option value="Commercial">Commercial</option>
         <option value="Infrastructure">Healthcare</option>
@@ -64,7 +64,7 @@ return(
     <h2></h2>
     <div class="construction-network-search">
       <form>
-        <input type="search" placeholder="Search by trade or business name  ">
+        <input type="search" placeholder="Search by serviceor business name  ">
         <select id="search-selector" name="search-selector">
           <option value="Commercial">Commercial</option>
           <option value="Infrastructure">Healthcare</option>
