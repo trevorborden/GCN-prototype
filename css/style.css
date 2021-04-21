@@ -3090,7 +3090,7 @@ input[type=radio] {
   background-repeat: no-repeat;
 }
 
-.trade-option {
+.service-option {
   background-color: #fff;
   overflow: hidden;
   border-radius: 8px;
@@ -3104,13 +3104,13 @@ input[type=radio] {
   background-repeat: no-repeat;
   display: block;
 }
-.trade-option:hover {
+.service-option:hover {
   cursor: pointer;
   box-shadow: none;
   border: 1px solid blue;
   box-shadow: 0px 10px 25px #D4D7E4;
 }
-.trade-option .trade-name {
+.service-option .service-name {
   font-weight: bold;
   font-size: 1.6rem;
   line-height: 5.2rem;
@@ -3534,7 +3534,7 @@ input[type=radio] {
     max-width: none;
   }
 
-  .trade-option {
+  .service-option {
     width: 50%;
     max-width: 22rem;
   }

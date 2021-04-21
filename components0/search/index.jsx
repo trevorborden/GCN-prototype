@@ -33,7 +33,7 @@ return(
                     <option value="Projects">Projects</option>
                 </select>
 -->
-      <input type="search" placeholder="Search by serviceor business  ">
+      <input type="search" placeholder="Search by service or business  ">
       <select id="search-selector" name="search-selector">
         <option value="Commercial">Commercial</option>
         <option value="Infrastructure">Healthcare</option>
@@ -64,7 +64,7 @@ return(
     <h2></h2>
     <div class="construction-network-search">
       <form>
-        <input type="search" placeholder="Search by serviceor business name  ">
+        <input type="search" placeholder="Search by service or business name  ">
         <select id="search-selector" name="search-selector">
           <option value="Commercial">Commercial</option>
           <option value="Infrastructure">Healthcare</option>
@@ -343,62 +343,62 @@ return(
       </button></a>
   </section>
   <section class="recent-projects landing-page-section">
-    <h2> Browse companies in Santa Barbara by trade</h2>
+    <h2> Browse companies in Santa Barbara by service</h2>
     <div class="flex-box space-between flex-wrap">
       <a href="SRP-Page--concrete.html">
-        <div class="trade-option concrete">
-          <div class="trade-name">
+        <div class="service-option concrete">
+          <div class="service-name">
             <span> Concrete</span>
           </div>
         </div>
       </a>
       <a href="SRP-Page--Electricians.html">
-        <div class="trade-option electrical">
+        <div class="service-option electrical">
 
-          <div class="trade-name">
+          <div class="service-name">
             <span> Electrical </span>
           </div>
 
         </div>
       </a>
-      <div class="trade-option finishes">
-        <div class="trade-name">
+      <div class="service-option finishes">
+        <div class="service-name">
           <span> Finishes </span>
         </div>
       </div>
-      <div class="trade-option  demolition">
-        <div class="trade-name">
+      <div class="service-option  demolition">
+        <div class="service-name">
           <span> Demolition</span>
         </div>
       </div>
-      <div class="trade-option landscaping">
-        <div class="trade-name">
+      <div class="service-option landscaping">
+        <div class="service-name">
           <span> Landscaping </span>
         </div>
       </div>
 
-      <div class="trade-option steel">
-        <div class="trade-name">
+      <div class="service-option steel">
+        <div class="service-name">
           <span> Structural Steel</span>
         </div>
       </div>
-      <div class="trade-option roofing">
-        <div class="trade-name">
+      <div class="service-option roofing">
+        <div class="service-name">
           <span> Roofing </span>
         </div>
       </div>
-      <div class="trade-option siding">
-        <div class="trade-name">
+      <div class="service-option siding">
+        <div class="service-name">
           <span> Siding </span>
         </div>
       </div>
-      <div class="trade-option  weather">
-        <div class="trade-name">
+      <div class="service-option  weather">
+        <div class="service-name">
           <span> Weather Barriers </span>
         </div>
       </div>
-      <div class="trade-option drywall">
-        <div class="trade-name">
+      <div class="service-option drywall">
+        <div class="service-name">
           <span> Dryall </span>
         </div>
       </div>
@@ -407,7 +407,7 @@ return(
     <button class=" header-buttons--login tertiary loading-bois">
       <spinner><svg class="spinner" viewBox="0 0 48 48">
           <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
-        </svg></spinner><label> View all trades</label>
+        </svg></spinner><label> View all services</label>
     </button></a>
   </section>
 
