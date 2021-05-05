@@ -2949,12 +2949,12 @@ input[type=radio] {
   position: absolute;
   top: -34px;
   width: 100%;
-  opacity: 30%;
+  opacity: 60%;
 }
 .search-hero h1 {
   color: #fff;
   text-align: center;
-  text-shadow: 0px 1rem 2.5rem rgba(0, 0, 0, 0.12);
+  text-shadow: 0px 0.5rem 2.5rem rgba(0, 0, 0, 0.92);
   font-size: 3.2rem;
   margin-bottom: 12px;
   padding: 0px 2.6rem;
@@ -2964,9 +2964,9 @@ input[type=radio] {
 .search-hero h2 {
   color: #fff;
   text-align: center;
-  text-shadow: 0px 10px 25px rgba(0, 0, 0, 0.12);
+  text-shadow: 0px 0.5rem 2.5rem rgba(0, 0, 0, 0.92);
   font-size: 2rem;
-  opacity: 0.5;
+  opacity: 0.8;
   margin: 0 auto;
   margin-bottom: 2.4rem;
   max-width: 700px;
