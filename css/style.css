@@ -2968,7 +2968,7 @@ input[type=radio] {
   font-size: 2rem;
   opacity: 0.8;
   margin: 0 auto;
-  margin-bottom: 2.4rem;
+  margin-bottom: 6.4rem;
   max-width: 700px;
 }
 .search-hero .construction-network-search {
@@ -2978,7 +2978,6 @@ input[type=radio] {
 }
 .search-hero .search-location {
   background: #fff;
-  margin-bottom: 7rem;
   max-width: 800px;
 }
 
