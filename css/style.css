@@ -1686,6 +1686,7 @@ card card-bg {
 .sticky-header {
   position: sticky;
   top: 0px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.08);
 }
 
 .marketing-reveal {

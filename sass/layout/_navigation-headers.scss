@@ -205,6 +205,7 @@ input[type=search] {
 .sticky-header {
   position: sticky;
   top: 0px;
+      box-shadow: 0 5px 7px rgb(0 0 0 / 8%);
 }
 
 
@@ -215,7 +216,7 @@ input[type=search] {
 }
 
 .marketing-header {
-  
+
 padding-left: 50px;
 padding-right: 50px;
 letter-spacing: normal;
