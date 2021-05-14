@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="INVITED/icon-font.INVITED"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+
+  <title>Construction Network </title>
+</head>
+
+<body class="landing-page-body">
+
+  <!-- marketing header -->
+
+
+
+  <!-- Site Header-->
+
+
+  <div class="site-header marketing-header">
+
+
+    <div class="site-header_logo">
+      <img class="site-header_logo_img center--horizontal" src="img/procorelogo.svg" alt="">
+    </div>
+
+<ul class="marketing-pages">
+
+  <li>Products</li>
+    <li>Solutions</li>
+      <li>Pricing</li>
+        <li>Customers</li>
+          <li>Network</li>
+</ul>
+
+<div class="marketing-buttons">
+  <button class=" header-buttons--login  loading-bois">
+      <spinner><svg class="spinner" viewBox="0 0 48 48">
+          <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+        </svg></spinner><label> Request Demo</label>
+    </button>
+    <button class=" secondary header-buttons--login  loading-bois">
+        <spinner><svg class="spinner" viewBox="0 0 48 48">
+            <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+          </svg></spinner><label> Login</label>
+      </button>
+</div>
+  </div>
+
+
+
+<!-- header with SEARCH -->
+
+  <div class="site-header marketing-header sticky-header">
+
+
+    <div class="site-header_logo marketing-reveal">
+      <img class="site-header_logo_img center--horizontal" src="img/procorelogo.svg" alt="">
+    </div>
+
+    <div class="construction-network-search construction-network-search--marketing ">
+
+
+      <form>
+        <div class="search-location">
+          <input type="search" placeholder="Search by service or business (e.g ‘Plumbing’ or ‘Concrete’) ">
+          <input class="zip" type="text" name="" value="Santa Barbara, CA">
+          <div class="search-trigger"> </div>
+        </div>
+
+      </form>
+
+
+    </div>
+
+<div class="marketing-buttons marketing-reveal">
+  <button class=" header-buttons--login  loading-bois">
+      <spinner><svg class="spinner" viewBox="0 0 48 48">
+          <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+        </svg></spinner><label> Request Demo</label>
+    </button>
+    <button class=" secondary header-buttons--login  loading-bois">
+        <spinner><svg class="spinner" viewBox="0 0 48 48">
+            <circle class="path" cx="24" cy="24" r="20" fill="none" stroke-width="8"></circle>
+          </svg></spinner><label> Login</label>
+      </button>
+</div>
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <script>
+    $({
+      Counter: 600
+    }).animate({
+      Counter: $('.Single').text()
+    }, {
+      duration: 20000,
+      easing: 'linear',
+      step: function() {
+        $('.Single').text(Math.ceil(this.Counter));
+      }
+    });
+
+
+    $(function() {
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 70) {
+          $('.marketing-reveal').css('opacity', '100');
+        } else {
+          $('.marketing-reveal').css('opacity', '0');
+        }
+      });
+    });
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+
+
+</html>

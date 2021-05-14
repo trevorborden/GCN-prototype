@@ -201,3 +201,84 @@ input[type=search] {
   }
 }
 }
+
+.sticky-header {
+  position: sticky;
+  top: 0px;
+}
+
+
+.marketing-reveal {
+    opacity: 0;
+    display: block;
+    transition: 300ms;
+}
+
+.marketing-header {
+  max-width: 1680px;
+padding-left: 50px;
+padding-right: 50px;
+letter-spacing: normal;
+
+.site-header_logo {
+  position: relative;
+  height: 100%;
+}
+
+.site-header_logo_img {
+  position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 100%;
+    }
+
+  .marketing-pages {
+  list-style: none;
+
+li {
+  display: inline-block;
+  color: #555;
+padding: 10px 0 4px;
+margin: 0px 12.5px;
+border-bottom: 2px solid transparent;
+position: relative;
+font-size: 15px;
+font-weight: 500;
+}
+}
+
+.marketing-buttons {
+      margin: 0px 5rem 0px auto;
+
+      .header-buttons--login {
+        padding: 12px 18px;
+font-weight: 600;
+        height: 40px;
+        font-size: 16px;
+        margin: 0px 0px 0px auto;
+      }
+
+}
+}
+
+.construction-network-search--marketing {
+ margin: 0 auto;
+ background: none !important;
+ box-shadow: none!important;
+
+  opacity: 0%;
+  animation-delay: 0ms;
+  animation: none;
+  animation-fill-mode: forwards;
+
+  z-index: 10000;
+  width: auto !important;
+  justify-content: center;
+  padding: inherit !important;
+
+  position: absolute !important;
+  top: 50% !important;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
